@@ -1,0 +1,67 @@
+name: Feature request
+description: Suggest a new feature, workflow idea, or improvement for the AhaKey ecosystem
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea.
+        Please help us understand the use case and why it matters.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the pain point or missing capability.
+      placeholder: Tell us what is hard, missing, or frustrating today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature or improvement you want.
+      placeholder: Tell us what you would like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use case
+      description: Who benefits from this and in what workflow?
+      placeholder: Explain the workflow or scenario.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Related area
+      options:
+        - Desktop client
+        - Protocol
+        - BLE behavior
+        - Workflow preset
+        - OLED / RGB tools
+        - Documentation
+        - Community integrations
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: If you tried another workaround or design, describe it here.
+      placeholder: Optional
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context
+      description: Links, sketches, screenshots, or references
+      placeholder: Optional
