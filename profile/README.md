@@ -134,6 +134,8 @@ We welcome:
 - showcase posts
 - third-party tools
 
+- Join Discussions for questions, ideas, integrations, and showcases
+
 ---
 
 ## Official vs Community
@@ -156,6 +158,7 @@ If AhaKey fits your workflow, come build with us.
 - Try the client
 - Open an issue
 - Start a discussion
+- Join Discussions for questions, ideas, integrations, and showcases
 - Build your own integration
 - Share your setup and workflow
 
@@ -295,6 +298,8 @@ AhaKey 提供：
 - showcase 展示
 - 第三方工具和集成
 
+- 通过 Discussions 参与提问、想法讨论、集成交流和社区展示
+
 ---
 
 ## 官方项目与社区项目
@@ -319,5 +324,6 @@ AhaKey 提供：
 - 体验客户端
 - 提交 issue
 - 发起 discussion
+- 通过 Discussions 参与提问、想法讨论、集成交流和社区展示
 - 开发你的集成
 - 分享你的 setup 和 workflow
