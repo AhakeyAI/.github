@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: AhaKey Discussions
+    url: https://github.com/AhakeyAI/.github/discussions
+    about: Ask questions, share workflows, or discuss ideas here
+  - name: Security issues
+    url: mailto:zhangxinyang@ahakey.cn
+    about: Please report security vulnerabilities privately by email
