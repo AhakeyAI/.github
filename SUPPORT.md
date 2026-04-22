@@ -35,9 +35,7 @@ Please **do not** report security-sensitive issues publicly in Discussions or Is
 
 Report them privately to:
 
-**security@ahakey.cn**
-
-If you do not want to use that address, replace it with your preferred private security contact.
+**zhangxinyang@ahakey.cn**
 
 ## Before opening an issue
 
@@ -105,9 +103,7 @@ Community projects may be listed or showcased, but that does not automatically m
 
 请私下发送到：
 
-**security@ahakey.cn**
-
-如果你们想用别的邮箱，后面把这里替换成你们最终决定的安全邮箱即可。
+**zhangxinyang@ahakey.cn**
 
 ## 提 issue 前建议附带这些信息
 
