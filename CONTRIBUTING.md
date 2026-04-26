@@ -4,376 +4,606 @@
 
 # English
 
-## Contributing to AhaKey
+## AhaKey Collaboration Guide
 
-Thanks for your interest in contributing to AhaKey.
+This document describes how contributors can work with the AhaKey community repositories.
 
-AhaKey is an open ecosystem built around official hardware, a shared BLE protocol, and community-built software for AI coding workflows.
+Our goal is simple:
 
-We welcome contributions that make the AhaKey ecosystem more useful, more stable, and more creative.
-
----
-
-## What kinds of contributions are welcome?
-
-We welcome contributions such as:
-
-- bug fixes
-- documentation improvements
-- protocol feedback
-- desktop client improvements
-- platform-specific fixes
-- new integrations
-- workflow presets
-- OLED / RGB tools
-- third-party clients
-- examples, demos, and tutorials
-
-We especially encourage contributions that help users build different workflows on top of AhaKey.
+- keep contribution paths open
+- keep `main` stable
+- make review and merging predictable
+- make it easy for new contributors to participate
 
 ---
 
-## Before you contribute
+## Core Rule
 
-Please keep these principles in mind:
+**Do not push directly to `main`.**
 
-### 1. Official hardware is the core
-AhaKey is built around official hardware.  
-The software ecosystem is open so the community can extend how the hardware is used.
+All changes should go through:
 
-### 2. Official and community projects are different
-Some repositories or tools are officially maintained.  
-Others may be community maintained.
-
-Being open source does not automatically mean every project is officially supported.
-
-### 3. We welcome creativity, not only fixes
-Bug fixes are helpful, but we also want to encourage new ideas, new clients, and new workflows.
+1. a branch
+2. a pull request
+3. review
+4. merge
 
 ---
 
-## Where should I post?
+## Contributor Types
 
-### Use Discussions for:
-- ideas
-- workflow sharing
-- showcase posts
-- integration brainstorming
-- general questions
-- early proposals
+### 1. Community contributors
 
-### Use Issues for:
-- clear bugs
-- documentation mistakes
-- concrete feature requests
-- specific protocol problems
-- actionable improvements
+This is the default path for new contributors.
 
-### Use Pull Requests for:
-- code changes
+Recommended workflow:
+
+1. Fork the repository
+2. Create a branch in your fork
+3. Make focused changes
+4. Open a pull request to the upstream repository
+
+This path is suitable for:
+
 - documentation updates
-- template improvements
-- fixes that are ready for review
+- small fixes
+- setup notes
+- integration experiments
+- showcase and community resource updates
+
+### 2. Core contributors
+
+Core contributors are trusted contributors who collaborate more frequently.
+
+Recommended workflow:
+
+1. Create a branch in the official repository
+2. Open a pull request to `main`
+3. Wait for review
+4. Merge after approval
+
+Core contributors should still avoid pushing directly to `main`.
+
+### 3. Maintainers
+
+Maintainers are responsible for:
+
+- reviewing pull requests
+- merging approved changes
+- managing labels, issues, and discussions
+- preparing releases
+- keeping repository boundaries clear
 
 ---
 
-## Contribution areas
+## Recommended Teams
 
-### Protocol
-You can help by:
-- improving protocol documentation
-- clarifying BLE behavior
-- adding examples
-- reporting compatibility issues
-- proposing better developer ergonomics
+When the community grows, we recommend keeping at least two teams:
 
-### Desktop software
-You can help by:
-- fixing bugs
-- improving platform compatibility
-- refining UX
-- reducing build complexity
-- improving performance and stability
+### `maintainers`
+Suggested permission:
+- admin
 
-### Community tools
-You can help by:
-- building third-party clients
-- creating OLED / RGB editors
-- making key mapping tools
-- designing workflow presets
-- building integrations for Claude / Cursor / Codex workflows
+Responsibilities:
+- merge pull requests
+- manage releases
+- configure repository settings
+- maintain branch protection rules
 
-### Documentation
-You can help by:
-- improving getting-started guides
-- adding platform-specific instructions
-- writing tutorials
-- improving translations
-- documenting examples and best practices
+### `core-contributors`
+Suggested permission:
+- write
+
+Responsibilities:
+- create branches in official repositories
+- submit pull requests
+- participate in ongoing technical collaboration
+
+For most new contributors, fork + pull request is preferred.
 
 ---
 
-## Pull request guidelines
+## Branch Naming
 
-Before opening a pull request, please make sure:
+Please keep branch names simple and descriptive.
 
-- your change has a clear purpose
-- your description explains what changed and why
-- you keep changes focused and reasonably small
-- you update documentation when needed
-- you mention platform limitations or compatibility impact if relevant
+Recommended prefixes:
 
-When possible, include:
-- screenshots
-- logs
-- demo GIFs
-- test notes
-- reproduction steps
+- `feat/...`
+- `fix/...`
+- `docs/...`
+- `chore/...`
 
----
+Examples:
 
-## Feature requests and protocol suggestions
-
-If you want to suggest a new feature or protocol change:
-
-- explain the use case
-- explain why the current behavior is not enough
-- explain who benefits from the change
-- explain whether it is a breaking or non-breaking idea if you know
-
-Good proposals are practical and easy to understand.
+- `feat/macos-status-widget`
+- `fix/windows-bridge-readme`
+- `docs/install-guide-update`
+- `chore/release-note-cleanup`
 
 ---
 
-## Community projects
+## Pull Request Rules
 
-We encourage community-built projects around AhaKey.
+### Keep pull requests focused
 
-Examples include:
-- native desktop clients
+One pull request should solve one problem.
+
+Avoid mixing unrelated changes in the same PR.
+
+### Good pull request examples
+
+- improve one installation guide
+- clarify one protocol section
+- fix one build instruction
+- add one community resource entry
+
+### PR title examples
+
+- `docs: improve Windows install guide`
+- `fix: clarify BLE bridge setup`
+- `feat: add macOS build notes`
+
+### Suggested PR template
+
+```md
+## What this PR does
+
+-
+
+## Why
+
+-
+
+## Scope
+
+-
+
+## Notes
+
+-
+```
+
+---
+
+## Review Rules
+
+### Basic review rule
+
+A pull request should be merged only after review.
+
+Recommended minimum rule:
+
+- at least 1 approval
+- unresolved review comments should be addressed
+- no direct push to `main`
+
+### Fast-merge candidates
+
+These can usually be reviewed and merged more quickly:
+
+- documentation updates
+- README improvements
+- showcase entries
+- small community resource updates
+
+### Higher-scrutiny changes
+
+These should be reviewed more carefully:
+
+- protocol command behavior
+- desktop platform source code
+- release-related changes
+- firmware-related documentation
+- repository structure changes
+
+---
+
+## Recommended Branch Protection
+
+For core repositories such as:
+
+- `.github`
+- `desktop`
+- `protocol`
+- `awesome-ahakey`
+- `firmware`
+
+we recommend protecting the `main` branch with rules such as:
+
+- require a pull request before merging
+- require at least 1 approval
+- require conversation resolution before merging
+- do not allow force pushes
+- do not allow branch deletion
+
+As the project grows, status checks and CI can be added later.
+
+---
+
+## Repository-Specific Contribution Suggestions
+
+### `desktop`
+Best for:
+- platform docs
+- build instructions
+- bug fixes
+- desktop client improvements
+- platform-specific notes for Windows and macOS
+
+### `protocol`
+Best for:
+- protocol docs
+- minimal examples
+- command clarification
+- BLE service explanations
+
+### `awesome-ahakey`
+Best for:
+- community tools
+- showcases
+- workflows
+- tutorials
 - integrations
-- scripts
-- plugins
-- presets
-- OLED / RGB tools
-- niche workflow utilities
 
-Community projects may be showcased or listed by AhaKey, but that does not automatically mean official support or long-term maintenance.
-
----
-
-## Be respectful
-
-We want AhaKey to be a friendly and constructive community.
-
-Please be respectful in discussions, issues, and pull requests.
-
-Assume good intent.  
-Be specific.  
-Focus on the work, not the person.
+### `firmware`
+Best for:
+- release notes
+- update instructions
+- compatibility notes
+- official firmware documentation
 
 ---
 
-## Questions?
+## Communication Suggestions
 
-If you are not sure where to start:
+Before making larger changes, contributors are encouraged to:
 
-- open a Discussion
-- ask a question
-- share your idea early
-- start with documentation or examples
+- open an issue
+- start a discussion
+- confirm scope with maintainers
 
-Small contributions are welcome too.
+This is especially recommended for:
 
-Thanks for helping build the AhaKey ecosystem.
+- architectural changes
+- repository restructuring
+- protocol behavior changes
+- release process changes
+
+---
+
+## AhaKey-Specific Notes
+
+Before contributing, contributors are encouraged to first identify the most relevant repository:
+
+- `desktop` — official desktop baseline
+- `protocol` — BLE protocol documentation and examples
+- `awesome-ahakey` — community projects, workflows, and showcases
+- `firmware` — firmware-related release notes and documentation
+
+For questions, ideas, and early discussion, please use AhaKey Discussions when appropriate.
+
+For installation and user-facing setup guidance, please prefer the official website / documentation pages when available.
+
+Please also read:
+
+- `SUPPORT.md`
+- `SECURITY.md`
+- `CODE_OF_CONDUCT.md`
+
+---
+
+## Preferred Workflow Summary
+
+### For new contributors
+**Fork → Branch → PR**
+
+### For core contributors
+**Official repo branch → PR → Review → Merge**
+
+### For maintainers
+**Review → Approve → Merge → Release**
 
 ---
 
 # 简体中文
 
-## 参与 AhaKey 社区
+## AhaKey 社区协作规则
 
-感谢你对 AhaKey 社区的关注。
+这份文档用于说明，AhaKey 社区中的贡献者应该如何参与各个仓库的协作。
 
-AhaKey 是一个围绕官方硬件、共享 BLE 协议和社区软件生态建立的开放平台，面向 AI coding workflow。
+我们的目标很简单：
 
-我们欢迎所有能让 AhaKey 生态更稳定、更有用、更多样的贡献。
-
----
-
-## 欢迎哪些类型的贡献？
-
-我们欢迎的贡献包括：
-
-- bug 修复
-- 文档改进
-- 协议反馈
-- 桌面客户端改进
-- 平台兼容修复
-- 新的集成方式
-- workflow preset
-- OLED / RGB 工具
-- 第三方客户端
-- 示例、演示和教程
-
-我们尤其欢迎那些能帮助用户围绕 AhaKey 构建不同工作流的贡献。
+- 让贡献路径保持开放
+- 让 `main` 分支保持稳定
+- 让 review 和 merge 过程可预期
+- 让新贡献者容易参与
 
 ---
 
-## 贡献之前，请先了解这些原则
+## 核心规则
 
-### 1. 官方硬件是生态核心
-AhaKey 的生态围绕官方硬件展开。  
-软件端开放，是为了让社区扩展硬件的使用方式，而不是替代硬件本身。
+**不要直接 push 到 `main`。**
 
-### 2. 官方项目和社区项目是不同的
-有些仓库或工具是官方维护的，  
-也有很多项目可能是社区维护的。
+所有改动统一走：
 
-开源并不代表所有项目都由官方支持。
-
-### 3. 我们欢迎创造，不只是修补
-修复 bug 很重要，但我们也希望鼓励大家做新的客户端、新的玩法和新的工作流。
+1. 新建分支
+2. 提交 PR
+3. review
+4. merge
 
 ---
 
-## 应该去哪里发内容？
+## 贡献者类型
 
-### 用 Discussions 发：
-- 想法和创意
-- workflow 分享
-- showcase 展示
-- 集成思路讨论
-- 一般问题
-- 早期提案
+### 1）社区贡献者
 
-### 用 Issues 发：
-- 明确的 bug
-- 文档错误
-- 具体功能请求
-- 明确的协议问题
-- 可以执行的改进项
+这是默认的参与路径，适合刚进入社区的新贡献者。
 
-### 用 Pull Requests 发：
-- 代码修改
+推荐流程：
+
+1. Fork 仓库
+2. 在自己的 fork 中创建分支
+3. 完成改动
+4. 向上游仓库提交 PR
+
+适合的贡献类型包括：
+
 - 文档更新
-- 模板改进
-- 已经准备好评审的修复
+- 小修复
+- setup 说明
+- integration 实验
+- showcase / 社区资源补充
+
+### 2）核心贡献者
+
+核心贡献者适合已经持续参与并且协作比较稳定的人。
+
+推荐流程：
+
+1. 在官方仓库中创建分支
+2. 向 `main` 提交 PR
+3. 等待 review
+4. 审核通过后再 merge
+
+即使是核心贡献者，也不建议直接 push 到 `main`。
+
+### 3）维护者
+
+维护者主要负责：
+
+- review PR
+- merge 已通过的改动
+- 管理 labels、issues、discussions
+- 准备 release
+- 保持仓库边界清晰
 
 ---
 
-## 贡献方向
+## 推荐的团队结构
 
-### 协议相关
-你可以帮助我们：
+当社区开始扩大后，建议至少保留两个 team：
 
-- 改进协议文档
-- 澄清 BLE 行为说明
-- 增加示例
-- 报告兼容性问题
-- 提出更好的开发者体验建议
+### `maintainers`
+建议权限：
+- admin
 
-### 桌面端软件
-你可以帮助我们：
+主要职责：
+- 合并 PR
+- 管理 release
+- 配置仓库设置
+- 维护分支保护规则
 
-- 修复 bug
-- 改进平台兼容性
-- 优化交互体验
-- 降低构建复杂度
-- 提升性能和稳定性
+### `core-contributors`
+建议权限：
+- write
 
-### 社区工具
-你可以帮助我们：
+主要职责：
+- 在官方仓库中创建分支
+- 提交 PR
+- 参与持续性的技术协作
 
-- 开发第三方客户端
-- 制作 OLED / RGB 编辑器
-- 开发按键映射工具
-- 设计 workflow preset
-- 构建 Claude / Cursor / Codex 相关集成
-
-### 文档相关
-你可以帮助我们：
-
-- 改进入门指南
-- 增加平台说明
-- 编写教程
-- 改进翻译
-- 补充示例和最佳实践
+对于大多数新贡献者，仍然建议优先使用 fork + PR。
 
 ---
 
-## Pull Request 指南
+## 分支命名规范
 
-在提交 Pull Request 之前，请尽量确保：
+请尽量保持分支名称简单、清晰、可读。
 
-- 你的改动目标明确
-- 说明里清楚写明改了什么、为什么改
-- 改动尽量聚焦，不要一次改太多无关内容
-- 如果需要，补充或更新文档
-- 如果会影响平台兼容性，请明确说明
+推荐前缀：
 
-如果方便，建议附上：
+- `feat/...`
+- `fix/...`
+- `docs/...`
+- `chore/...`
 
-- 截图
-- 日志
-- 演示 GIF
-- 测试说明
-- 复现步骤
+示例：
 
----
-
-## 功能建议和协议提案怎么写？
-
-如果你想提出新功能或协议建议，请尽量说明：
-
-- 使用场景是什么
-- 当前方案为什么不够
-- 谁会从这个改动中受益
-- 如果你知道的话，这是否会带来 breaking change
-
-好的提案应该清楚、具体、容易理解。
+- `feat/macos-status-widget`
+- `fix/windows-bridge-readme`
+- `docs/install-guide-update`
+- `chore/release-note-cleanup`
 
 ---
 
-## 关于社区项目
+## Pull Request 规则
 
-我们鼓励大家围绕 AhaKey 构建社区项目。
+### 一个 PR 只解决一个问题
 
-例如：
+请尽量保持 PR 聚焦。
 
-- 原生桌面客户端
-- 集成工具
-- 脚本
-- 插件
-- preset
-- OLED / RGB 工具
-- 面向特定场景的小工具
+不要把互不相关的改动混在同一个 PR 里。
 
-社区项目可能会被 AhaKey 收录、展示或推荐，但这并不自动代表官方支持或长期维护承诺。
+### 好的 PR 示例
+
+- 改进一篇安装说明
+- 补清楚一段协议文档
+- 修复一条构建说明
+- 增加一条社区资源收录
+
+### PR 标题示例
+
+- `docs: improve Windows install guide`
+- `fix: clarify BLE bridge setup`
+- `feat: add macOS build notes`
+
+### 推荐 PR 模板
+
+```md
+## What this PR does
+
+-
+
+## Why
+
+-
+
+## Scope
+
+-
+
+## Notes
+
+-
+```
 
 ---
 
-## 保持友好和尊重
+## Review 规则
 
-我们希望 AhaKey 是一个友好、建设性的社区。
+### 基础 review 规则
 
-请在 Discussions、Issues 和 Pull Requests 中保持尊重。
+一个 PR 应该在 review 之后再 merge。
 
-默认善意。  
-具体表达。  
-聚焦问题本身，而不是针对个人。
+推荐最小规则：
+
+- 至少 1 个 approval
+- review 评论未解决前不要 merge
+- 不允许直接 push 到 `main`
+
+### 可以相对快合的改动
+
+以下类型通常可以更快 review 和 merge：
+
+- 文档更新
+- README 改进
+- showcase 条目补充
+- 社区资源链接更新
+
+### 需要更谨慎 review 的改动
+
+以下改动建议更认真地 review：
+
+- 协议命令相关内容
+- desktop 平台源码
+- release 相关内容
+- firmware 相关文档
+- 仓库结构调整
 
 ---
 
-## 不知道从哪里开始？
+## 推荐的 `main` 分支保护规则
 
-如果你不确定该怎么开始：
+对于以下核心仓库：
 
-- 先开一个 Discussion
-- 先提问
-- 先分享你的想法
-- 先从文档或示例开始
+- `.github`
+- `desktop`
+- `protocol`
+- `awesome-ahakey`
+- `firmware`
 
-小的贡献同样非常欢迎。
+建议为 `main` 打开保护规则，例如：
 
-感谢你一起建设 AhaKey 生态。
+- merge 前必须走 pull request
+- 至少需要 1 个 approval
+- conversation 未解决前不能 merge
+- 不允许 force push
+- 不允许删除分支
+
+后续随着项目成长，再逐步补 CI 和状态检查。
+
+---
+
+## 各仓库适合接收什么类型的贡献
+
+### `desktop`
+适合：
+- 平台文档
+- 构建说明
+- bug 修复
+- desktop client 改进
+- Windows / macOS 平台相关说明
+
+### `protocol`
+适合：
+- 协议文档
+- 最小示例
+- 命令说明补充
+- BLE service 说明优化
+
+### `awesome-ahakey`
+适合：
+- 社区工具
+- showcase
+- workflows
+- tutorials
+- integrations
+
+### `firmware`
+适合：
+- 发布说明
+- 升级说明
+- 兼容性说明
+- 官方固件相关文档
+
+---
+
+## 沟通建议
+
+当改动比较大时，建议先：
+
+- 开 issue
+- 发 discussion
+- 先和 maintainers 对齐范围
+
+尤其是以下类型的改动，建议先沟通：
+
+- 架构调整
+- 仓库重组
+- 协议行为变化
+- release 流程变化
+
+---
+
+## AhaKey 补充说明
+
+在开始贡献前，建议先判断你的改动最适合进入哪个仓库：
+
+- `desktop` — 官方 desktop baseline
+- `protocol` — BLE 协议文档与示例
+- `awesome-ahakey` — 社区项目、workflow 和 showcase
+- `firmware` — 固件相关发布说明与文档
+
+如果是问题、想法或前期讨论，建议优先使用 AhaKey Discussions。
+
+如果涉及安装、使用说明和面向普通用户的 setup 指引，优先以官网 / 独立站文档为准。
+
+同时也请阅读：
+
+- `SUPPORT.md`
+- `SECURITY.md`
+- `CODE_OF_CONDUCT.md`
+
+---
+
+## 推荐协作流程总结
+
+### 对新贡献者
+**Fork → Branch → PR**
+
+### 对核心贡献者
+**官方仓库建分支 → PR → Review → Merge**
+
+### 对维护者
+**Review → Approve → Merge → Release**
