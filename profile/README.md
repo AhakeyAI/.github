@@ -20,10 +20,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AhakeyAI/desktop"><img alt="desktop" src="https://img.shields.io/badge/Desktop-Official-blue"></a>
-  <a href="https://github.com/AhakeyAI/protocol"><img alt="protocol" src="https://img.shields.io/badge/Protocol-BLE-informational"></a>
-  <a href="https://github.com/AhakeyAI/awesome-ahakey"><img alt="awesome" src="https://img.shields.io/badge/Community-Projects-success"></a>
-  <a href="https://github.com/AhakeyAI/firmware"><img alt="firmware" src="https://img.shields.io/badge/Firmware-Notes-lightgrey"></a>
+  <a href="https://github.com/AhakeyAI/desktop/releases"><img alt="release" src="https://img.shields.io/badge/Download-Releases-blue"></a>
+  <a href="https://github.com/AhakeyAI/desktop"><img alt="desktop" src="https://img.shields.io/badge/Desktop-Official-5C6BC0"></a>
+  <a href="https://github.com/AhakeyAI/protocol"><img alt="protocol" src="https://img.shields.io/badge/Protocol-BLE-26A69A"></a>
+  <a href="https://github.com/AhakeyAI/awesome-ahakey"><img alt="awesome" src="https://img.shields.io/badge/Community-Projects-43A047"></a>
+  <a href="https://github.com/orgs/AhakeyAI/discussions"><img alt="discussion" src="https://img.shields.io/badge/Discuss-GitHub%20Discussions-orange"></a>
 </p>
 
 ---
@@ -32,11 +33,55 @@
 
 | 你想做什么 | 去哪里 | 说明 |
 |---|---|---|
-| 我想使用官方客户端 | [`release`](https://github.com/AhakeyAI/desktop/releases) | 下载、安装、构建官方桌面客户端 |
-| 我想修改官方桌面端 | [`desktop`](https://github.com/AhakeyAI/desktop) | Fork 后改代码，再提交 PR |
+| 我想直接使用官方客户端 | [`Releases`](https://github.com/AhakeyAI/desktop/releases) | 下载官方桌面客户端安装包 |
+| 我想查看 / 修改官方桌面端源码 | [`desktop`](https://github.com/AhakeyAI/desktop) | Fork 后改代码，再提交 PR |
 | 我想自己做客户端 / 工具 | [`protocol`](https://github.com/AhakeyAI/protocol) | 阅读 BLE 协议，做自己的客户端、脚本或 workflow |
-| 我做了独立版本 / 教程 / workflow | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 提交社区项目、脚本、教程、工作流、桌面 setup |
-| 我想申请固件源码 / 硬件资料 | [`Source-Access-Request`](https://github.com/AhakeyAI/awesome-ahakey)  | 固件源码、硬件设计文件、生产资料不默认公开，需要单独申请，审批较快 |
+| 我想欣赏并 Fork 别人的二创 | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 查看社区项目、教程、工作流、桌面 setup |
+| 我做了独立版本 / 教程 / workflow，想提交给社区 | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 按模板提交你的项目，让更多人看到 |
+| 我发现了 bug | [`Issues`](https://github.com/AhakeyAI/desktop/issues) | 提交明确问题、复现步骤、日志或截图 |
+| 我有一个想法，想先讨论 | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | 发起问题、想法、玩法、共创讨论 |
+| 我想申请固件源码 / 硬件资料 | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | 固件源码、硬件设计文件、生产资料不默认公开，需要单独申请 |
+
+---
+
+## 仓库说明
+
+<div align="center">
+
+<table>
+  <tr>
+    <th>仓库</th>
+    <th>用途</th>
+    <th>适合谁看</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/AhakeyAI/desktop"><strong>desktop</strong></a></td>
+    <td>官方桌面客户端</td>
+    <td>想使用、构建、修改官方客户端的人</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/AhakeyAI/protocol"><strong>protocol</strong></a></td>
+    <td>AhaKey BLE 协议与客户端开发参考</td>
+    <td>想自己做客户端、脚本、工具、workflow 的人</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/AhakeyAI/awesome-ahakey"><strong>awesome-ahakey</strong></a></td>
+    <td>社区项目、教程、workflow 展示</td>
+    <td>想看二创、Fork 别人项目、提交自己作品的人</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/AhakeyAI/firmware"><strong>firmware</strong></a></td>
+    <td>固件版本说明、升级说明、兼容性说明</td>
+    <td>想了解固件版本和升级信息的人</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/AhakeyAI/.github"><strong>.github</strong></a></td>
+    <td>组织级贡献规则、Issue / PR 模板、社区支持信息</td>
+    <td>准备提交 Issue、PR 或参与社区协作的人</td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
@@ -62,13 +107,35 @@
 
 ## 推荐路径
 
-### 1）我想改官方客户端
+### 1）我想直接使用官方客户端
+
+```text
+进入 Releases
+→ 下载最新版本
+→ 安装桌面客户端
+→ 连接 AhaKey
+→ 开始使用
+```
+
+适合：
+
+- 只想使用 AhaKey
+- 不改代码
+- 不做开发
+- 需要下载安装包
+
+入口：[`desktop/releases`](https://github.com/AhakeyAI/desktop/releases)
+
+---
+
+### 2）我想修改官方客户端
 
 ```text
 进入 desktop
 → 阅读 README
 → Fork 仓库
 → 修改代码
+→ 本地测试
 → 提交 Pull Request
 ```
 
@@ -80,9 +147,11 @@
 - 增加 macOS / Windows 适配
 - 改进官方默认体验
 
+入口：[`desktop`](https://github.com/AhakeyAI/desktop)
+
 ---
 
-### 2）我想做自己的客户端 / 工具
+### 3）我想自己做客户端 / 工具
 
 ```text
 进入 protocol
@@ -101,9 +170,32 @@
 - 做 OLED / RGB / 配置工具
 - 做自动化集成
 
+入口：[`protocol`](https://github.com/AhakeyAI/protocol)
+
 ---
 
-### 3）我做了一个独立版本，想分享给社区
+### 4）我想欣赏并 Fork 别人的二创
+
+```text
+进入 awesome-ahakey
+→ 找到感兴趣的项目
+→ 查看 README / Demo
+→ Fork 或参考实现
+→ 做自己的改造
+```
+
+适合：
+
+- 看别人怎么玩 AhaKey
+- 找现成工具和教程
+- Fork 社区项目继续改
+- 学习第三方客户端或 workflow 的实现方式
+
+入口：[`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)
+
+---
+
+### 5）我做了一个独立版本，想分享给社区
 
 ```text
 进入 awesome-ahakey
@@ -121,17 +213,75 @@
 - 桌面 setup 展示
 - 视频 / 图文教程
 
+入口：[`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)
+
 ---
 
-## 仓库说明
+### 6）我发现了 bug
 
-| 仓库 | 用途 |
-|---|---|
-| [`desktop`](https://github.com/AhakeyAI/desktop) | 官方桌面客户端 |
-| [`protocol`](https://github.com/AhakeyAI/protocol) | AhaKey BLE 协议与客户端开发参考 |
-| [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 社区项目、教程、workflow 展示 |
-| [`firmware`](https://github.com/AhakeyAI/firmware) | 固件版本说明、升级说明、兼容性说明 |
-| [`.github`](https://github.com/AhakeyAI/.github) | 组织级贡献规则、Issue / PR 模板、社区支持信息 |
+```text
+进入对应仓库的 Issues
+→ 描述问题
+→ 提供复现步骤
+→ 补充系统环境、日志或截图
+→ 等待维护者确认
+```
+
+适合用 Issue 的情况：
+
+- 官方客户端无法启动
+- BLE 连接异常
+- 某个功能稳定复现错误
+- 文档有明显错误
+- 构建 / 安装流程失败
+- 协议文档中某个字段不清楚
+
+常用入口：
+
+- 官方客户端问题：[`desktop/issues`](https://github.com/AhakeyAI/desktop/issues)
+- 协议问题：[`protocol/issues`](https://github.com/AhakeyAI/protocol/issues)
+
+---
+
+### 7）我有一个想法，想先讨论
+
+```text
+进入 Discussions
+→ 描述你的想法 / 玩法 / 场景
+→ 和社区一起讨论
+→ 成熟后再决定是否开 Issue 或 PR
+```
+
+适合用 Discussion 的情况：
+
+- 你还不确定这是不是 bug
+- 你有一个新功能想法
+- 你想讨论某种 AhaKey 玩法
+- 你想展示正在做的 DIY
+- 你想发起一个高关注度的共创话题
+- 你想问“这个功能该不该做、怎么做”
+
+入口：[`GitHub Discussions`](https://github.com/orgs/AhakeyAI/discussions)
+
+---
+
+## Issue / Discussion / PR / awesome-ahakey 分别用来做什么？
+
+| 类型 | 用途 | 适合什么时候用 |
+|---|---|---|
+| Issue | 明确问题或明确需求 | bug、文档错误、可复现问题、具体功能请求 |
+| Discussion | 开放讨论和想法孵化 | 玩法讨论、共创想法、不确定的问题、高关注度话题 |
+| Pull Request | 提交具体改动 | 代码修改、文档修改、bug fix、功能实现 |
+| awesome-ahakey | 展示社区作品 | 独立项目、第三方客户端、脚本、教程、workflow、二创展示 |
+
+简单理解：
+
+```text
+不确定 → 先 Discussion
+明确问题 → 提 Issue
+已经改好 → 提 Pull Request
+做了独立作品 → 提到 awesome-ahakey
+```
 
 ---
 
@@ -198,10 +348,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AhakeyAI/desktop"><img alt="desktop" src="https://img.shields.io/badge/Desktop-Official-blue"></a>
-  <a href="https://github.com/AhakeyAI/protocol"><img alt="protocol" src="https://img.shields.io/badge/Protocol-BLE-informational"></a>
-  <a href="https://github.com/AhakeyAI/awesome-ahakey"><img alt="awesome" src="https://img.shields.io/badge/Community-Projects-success"></a>
-  <a href="https://github.com/AhakeyAI/firmware"><img alt="firmware" src="https://img.shields.io/badge/Firmware-Notes-lightgrey"></a>
+  <a href="https://github.com/AhakeyAI/desktop/releases"><img alt="release" src="https://img.shields.io/badge/Download-Releases-blue"></a>
+  <a href="https://github.com/AhakeyAI/desktop"><img alt="desktop" src="https://img.shields.io/badge/Desktop-Official-5C6BC0"></a>
+  <a href="https://github.com/AhakeyAI/protocol"><img alt="protocol" src="https://img.shields.io/badge/Protocol-BLE-26A69A"></a>
+  <a href="https://github.com/AhakeyAI/awesome-ahakey"><img alt="awesome" src="https://img.shields.io/badge/Community-Projects-43A047"></a>
+  <a href="https://github.com/orgs/AhakeyAI/discussions"><img alt="discussion" src="https://img.shields.io/badge/Discuss-GitHub%20Discussions-orange"></a>
 </p>
 
 ---
@@ -210,11 +361,55 @@
 
 | What do you want to do? | Where to go | Notes |
 |---|---|---|
-| Use the official desktop client | [`desktop`](https://github.com/AhakeyAI/desktop) | Download, install, or build the official desktop client |
-| Modify the official desktop client | [`desktop`](https://github.com/AhakeyAI/desktop) | Fork the repo, make changes, and submit a PR |
+| Use the official desktop client | [`Releases`](https://github.com/AhakeyAI/desktop/releases) | Download the official desktop client |
+| View / modify the official desktop source code | [`desktop`](https://github.com/AhakeyAI/desktop) | Fork the repo, make changes, and submit a PR |
 | Build your own client / tool | [`protocol`](https://github.com/AhakeyAI/protocol) | Read the BLE protocol and build your own client, script, or workflow |
-| Share your own project / tutorial / workflow | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | Submit community projects, scripts, tutorials, workflows, or setups |
-| Request firmware source / hardware materials | Source Access Request | Firmware source, hardware design files, and production materials are not public by default |
+| Explore and fork community remixes | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | Browse community projects, tutorials, workflows, and setups |
+| Submit your own project / tutorial / workflow | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | Submit your project and let more people see it |
+| Report a bug | [`Issues`](https://github.com/AhakeyAI/desktop/issues) | Submit a clear issue with reproduction steps, logs, or screenshots |
+| Start a discussion | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | Share ideas, questions, use cases, or collaboration topics |
+| Request firmware source / hardware materials | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | Firmware source and hardware files are not public by default |
+
+---
+
+## Repositories
+
+<div align="center">
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Purpose</th>
+    <th>Who should read it</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/AhakeyAI/desktop"><strong>desktop</strong></a></td>
+    <td>Official desktop client</td>
+    <td>Users or developers who want to use, build, or modify the official client</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/AhakeyAI/protocol"><strong>protocol</strong></a></td>
+    <td>AhaKey BLE protocol and client development reference</td>
+    <td>Developers building their own clients, scripts, tools, or workflows</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/AhakeyAI/awesome-ahakey"><strong>awesome-ahakey</strong></a></td>
+    <td>Community projects, tutorials, and workflow showcase</td>
+    <td>People browsing remixes, forking projects, or submitting their own work</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/AhakeyAI/firmware"><strong>firmware</strong></a></td>
+    <td>Firmware version notes, upgrade notes, and compatibility notes</td>
+    <td>Users who want to understand firmware versions and upgrade information</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/AhakeyAI/.github"><strong>.github</strong></a></td>
+    <td>Shared contribution rules, Issue / PR templates, and support information</td>
+    <td>Contributors preparing to submit Issues, PRs, or community contributions</td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
@@ -240,17 +435,39 @@
 
 ## Recommended paths
 
-### 1) I want to modify the official desktop client
+### 1) I want to use the official desktop client
+
+```text
+Go to Releases
+→ Download the latest version
+→ Install the desktop client
+→ Connect AhaKey
+→ Start using it
+```
+
+Best for:
+
+- users who only want to use AhaKey
+- no code changes
+- no development work
+- downloading installers
+
+Entry: [`desktop/releases`](https://github.com/AhakeyAI/desktop/releases)
+
+---
+
+### 2) I want to modify the official desktop client
 
 ```text
 Go to desktop
 → Read the README
 → Fork the repository
 → Modify the code
+→ Test locally
 → Submit a Pull Request
 ```
 
-Suitable for:
+Best for:
 
 - bug fixes
 - UI improvements
@@ -258,9 +475,11 @@ Suitable for:
 - macOS / Windows support improvements
 - improvements to the official default experience
 
+Entry: [`desktop`](https://github.com/AhakeyAI/desktop)
+
 ---
 
-### 2) I want to build my own client / tool
+### 3) I want to build my own client / tool
 
 ```text
 Go to protocol
@@ -271,7 +490,7 @@ Go to protocol
 → Submit it to awesome-ahakey
 ```
 
-Suitable for:
+Best for:
 
 - your own macOS / Windows client
 - Cursor / Claude / Codex workflow tools
@@ -279,9 +498,32 @@ Suitable for:
 - OLED / RGB / config tools
 - automation integrations
 
+Entry: [`protocol`](https://github.com/AhakeyAI/protocol)
+
 ---
 
-### 3) I built an independent project and want to share it
+### 4) I want to explore and fork community remixes
+
+```text
+Go to awesome-ahakey
+→ Find an interesting project
+→ Read its README / Demo
+→ Fork it or learn from it
+→ Build your own remix
+```
+
+Best for:
+
+- seeing how others use AhaKey
+- finding existing tools and tutorials
+- forking community projects
+- learning from third-party clients or workflow implementations
+
+Entry: [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)
+
+---
+
+### 5) I built an independent project and want to share it
 
 ```text
 Go to awesome-ahakey
@@ -290,7 +532,7 @@ Go to awesome-ahakey
 → High-value features may later be evaluated for the official desktop
 ```
 
-Suitable for:
+Best for:
 
 - third-party clients
 - utility scripts
@@ -299,17 +541,75 @@ Suitable for:
 - desktop setup showcases
 - video / article tutorials
 
+Entry: [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)
+
 ---
 
-## Repositories
+### 6) I found a bug
 
-| Repository | Purpose |
-|---|---|
-| [`desktop`](https://github.com/AhakeyAI/desktop) | Official desktop client |
-| [`protocol`](https://github.com/AhakeyAI/protocol) | AhaKey BLE protocol and client development reference |
-| [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | Community projects, tutorials, and workflows |
-| [`firmware`](https://github.com/AhakeyAI/firmware) | Firmware version notes, upgrade notes, and compatibility notes |
-| [`.github`](https://github.com/AhakeyAI/.github) | Shared contribution rules, Issue / PR templates, and support info |
+```text
+Go to Issues
+→ Describe the problem
+→ Provide reproduction steps
+→ Add environment info, logs, or screenshots
+→ Wait for maintainer confirmation
+```
+
+Use Issues for:
+
+- official client startup failures
+- BLE connection problems
+- reproducible feature bugs
+- documentation errors
+- build / installation failures
+- unclear protocol fields
+
+Common entries:
+
+- Desktop issues: [`desktop/issues`](https://github.com/AhakeyAI/desktop/issues)
+- Protocol issues: [`protocol/issues`](https://github.com/AhakeyAI/protocol/issues)
+
+---
+
+### 7) I have an idea and want to discuss it first
+
+```text
+Go to Discussions
+→ Describe your idea / use case / workflow
+→ Discuss with the community
+→ Open an Issue or PR later if it becomes clear
+```
+
+Use Discussions for:
+
+- uncertain questions
+- new feature ideas
+- AhaKey workflow discussions
+- DIY build logs
+- high-attention collaboration topics
+- questions like “should this be built?” or “how should this be built?”
+
+Entry: [`GitHub Discussions`](https://github.com/orgs/AhakeyAI/discussions)
+
+---
+
+## What are Issue / Discussion / PR / awesome-ahakey for?
+
+| Type | Purpose | Best used for |
+|---|---|---|
+| Issue | Clear problems or concrete requests | bugs, documentation errors, reproducible problems, specific feature requests |
+| Discussion | Open-ended discussion and idea incubation | workflows, ideas, uncertain questions, collaboration topics |
+| Pull Request | Concrete changes | code changes, documentation changes, bug fixes, implemented features |
+| awesome-ahakey | Community showcase | independent projects, third-party clients, scripts, tutorials, workflows, remixes |
+
+Simple rule:
+
+```text
+Not sure → Discussion
+Clear problem → Issue
+Already changed something → Pull Request
+Built an independent project → awesome-ahakey
+```
 
 ---
 
