@@ -32,7 +32,7 @@
 
 | 你想做什么 | 去哪里 | 说明 |
 |---|---|---|
-| 我想使用官方客户端 | [`desktop`](https://github.com/AhakeyAI/desktop) | 下载、安装、构建官方桌面客户端 |
+| 我想使用官方客户端 | [`desktop`]([https://github.com/AhakeyAI/desktop](https://github.com/AhakeyAI/desktop/releases)) | 下载、安装、构建官方桌面客户端 |
 | 我想修改官方桌面端 | [`desktop`](https://github.com/AhakeyAI/desktop) | Fork 后改代码，再提交 PR |
 | 我想自己做客户端 / 工具 | [`protocol`](https://github.com/AhakeyAI/protocol) | 阅读 BLE 协议，做自己的客户端、脚本或 workflow |
 | 我做了独立版本 / 教程 / workflow | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 提交社区项目、脚本、教程、工作流、桌面 setup |
