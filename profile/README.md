@@ -85,6 +85,31 @@
 
 ---
 
+## 社区维护入口
+
+这些文件不是新的用户入口，而是 AhaKey 社区的基础维护规则。  
+普通用户不需要一开始全部阅读；当你准备提 Issue、PR、报告安全问题或参与社区协作时，再查看对应文档即可。
+
+| 你想做什么 | 看这里 | 说明 |
+|---|---|---|
+| 了解如何提交 Issue / PR / 社区项目 | [`CONTRIBUTING.md`](https://github.com/AhakeyAI/.github/blob/main/CONTRIBUTING.md) | 贡献规则、PR 流程、哪些内容适合提交到官方或社区 |
+| 遇到使用、构建、连接、协议问题 | [`SUPPORT.md`](https://github.com/AhakeyAI/.github/blob/main/SUPPORT.md) | 遇到问题时该去哪个仓库、需要提供什么信息 |
+| 报告安全问题、密钥泄露、隐私风险 | [`SECURITY.md`](https://github.com/AhakeyAI/.github/blob/main/SECURITY.md) | 安全问题请不要公开发 Issue，按安全流程联系团队 |
+| 了解社区基本行为规范 | [`CODE_OF_CONDUCT.md`](https://github.com/AhakeyAI/.github/blob/main/CODE_OF_CONDUCT.md) | 保持友好、尊重、建设性的社区协作氛围 |
+
+简单理解：
+
+```text
+
+想贡献 → CONTRIBUTING
+遇到问题 → SUPPORT
+安全问题 → SECURITY
+社区行为规范 → CODE_OF_CONDUCT
+
+```
+
+---
+
 ## AhaKey 默认开放什么？
 
 ### 默认开放
@@ -411,8 +436,35 @@
 
 </div>
 
+
+
 ---
 
+## Community maintenance files
+
+These files are not extra entry points for new users.  
+They are the basic rules and support files that help keep the AhaKey community maintainable.
+
+You do not need to read all of them at the beginning.  
+Check the relevant file when you are ready to submit an Issue, open a Pull Request, report a security issue, or participate in community collaboration.
+
+| What do you want to do? | Read this | Notes |
+|---|---|---|
+| Learn how to submit Issues, PRs, or community projects | [`CONTRIBUTING.md`](https://github.com/AhakeyAI/.github/blob/main/CONTRIBUTING.md) | Contribution rules, PR flow, and what belongs in official repos or community projects |
+| Get help with usage, builds, connection, or protocol questions | [`SUPPORT.md`](https://github.com/AhakeyAI/.github/blob/main/SUPPORT.md) | Where to ask questions and what information to provide |
+| Report security issues, leaked secrets, or privacy risks | [`SECURITY.md`](https://github.com/AhakeyAI/.github/blob/main/SECURITY.md) | Please do not open public Issues for security problems |
+| Understand community behavior expectations | [`CODE_OF_CONDUCT.md`](https://github.com/AhakeyAI/.github/blob/main/CODE_OF_CONDUCT.md) | Keep the community friendly, respectful, and constructive |
+
+Simple rule:
+
+```text
+Want to contribute → CONTRIBUTING
+Need help → SUPPORT
+Security issue → SECURITY
+Community behavior → CODE_OF_CONDUCT
+```
+
+---
 ## What is open by default?
 
 ### Open by default
