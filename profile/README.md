@@ -40,7 +40,7 @@
 | 我做了独立版本 / 教程 / workflow，想提交给社区 | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 按模板提交你的项目，让更多人看到 |
 | 我发现了 bug | [`Issues`](https://github.com/AhakeyAI/desktop/issues) | 提交明确问题、复现步骤、日志或截图 |
 | 我有一个想法，想先讨论 | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | 发起问题、想法、玩法、共创讨论 |
-| 我想申请固件源码 / 硬件资料 | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | 固件源码、硬件设计文件、生产资料不默认公开，需要单独申请 |
+| 我想申请固件源码 / 硬件资料 | [`Permission`](https://ahakey.com/cn/hardware-source/apply) | 固件源码、硬件设计文件、生产资料不默认公开，需要单独申请 |
 
 ---
 
