@@ -337,24 +337,10 @@
 
 固件源码、硬件设计文件和生产资料**不默认公开**。
 
-如果你的项目确实需要访问这些资料，请先提交 **Source Access Request**，并说明：
-
-- 你是谁
-- 你购买 / 使用的 AhaKey 设备
-- 你想做什么项目
-- 为什么公开 BLE 协议不够用
-- 是否涉及商业用途
-- 是否会公开发布
-- 是否需要修改固件或硬件
-
+如果你的项目确实需要访问这些资料，请先提交 [`Permission`](https://ahakey.com/cn/hardware-source/apply)，并说明：
 未经授权，不得使用受控资料自行打板、仿制、量产、销售或开发竞争性硬件产品。
 
 ---
-
-## 一句话原则
-
-> 官方版本追求稳定，社区版本鼓励探索。  
-> 不是所有 DIY 都必须合进官方，但所有高质量的 AhaKey 玩法、工具和 workflow 都值得被看见。
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
 
@@ -393,7 +379,7 @@
 | Submit your own project / tutorial / workflow | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | Submit your project and let more people see it |
 | Report a bug | [`Issues`](https://github.com/AhakeyAI/desktop/issues) | Submit a clear issue with reproduction steps, logs, or screenshots |
 | Start a discussion | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | Share ideas, questions, use cases, or collaboration topics |
-| Request firmware source / hardware materials | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | Firmware source and hardware files are not public by default |
+| Request firmware source / hardware materials | [`Permission`](https://ahakey.com/cn/hardware-source/apply) | Firmware source and hardware files are not public by default |
 
 ---
 
@@ -692,15 +678,7 @@ Please try to keep contributions:
 
 Firmware source code, hardware design files, and production materials are **not publicly released by default**.
 
-If your project really requires access, please submit a **Source Access Request** and explain:
-
-- who you are
-- which AhaKey device you own / use
-- what project you want to build
-- why the public BLE protocol is not enough
-- whether commercial use is involved
-- whether the result will be published
-- whether firmware or hardware modification is required
+If your project really requires access, please submit a [`Permission`](https://ahakey.com/cn/hardware-source/apply) and explain:
 
 Without authorization, controlled materials may not be used for board reproduction, cloning, manufacturing, resale, or development of competing hardware products.
 
