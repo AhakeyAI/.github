@@ -1,609 +1,604 @@
-[English](#english) | [简体中文](#简体中文)
+<a id="top"></a>
+
+<p align="center">
+  <a href="#zh-cn"><strong>简体中文</strong></a> ·
+  <a href="#en"><strong>English</strong></a>
+</p>
 
 ---
 
-# English
+<a id="zh-cn"></a>
 
-## AhaKey Collaboration Guide
+# 参与 AhaKey 共创
 
-This document describes how contributors can work with the AhaKey community repositories.
+感谢你参与 AhaKey 社区。
 
-Our goal is simple:
+这份文档只说明：**如何提交贡献、如何协作、贡献如何被认可、GitHub 权限如何处理**。
 
-- keep contribution paths open
-- keep `main` stable
-- make review and merging predictable
-- make it easy for new contributors to participate
+如果你还不确定应该去哪个仓库、应该看 `desktop`、`protocol` 还是 `awesome-ahakey`，请先从组织首页开始：
+
+👉 [`AhaKey Community`](https://github.com/AhakeyAI)
 
 ---
 
-## Core Rule
+## 1. 当前维护分工
+
+AhaKey 目前由一个小型维护团队维护。不同类型的贡献会由不同成员参与处理。
+
+| 成员 | 主要角色 | 负责内容 |
+|---|---|---|
+| Ann | Official Product Software Lead | 负责官方产品软件的持续迭代。涉及最终进入官方 `desktop` 版本的功能，需要由 Ann 进行产品与软件方向把关。 |
+| ZephyrKeXiner | Code Review & Merge Maintainer | 负责合并上来的代码审查、PR Review、合并判断和仓库代码质量把关。 |
+| Vivian | Community Operations Maintainer | 负责社区维护、用户引导、Discussion / Issue 运营、`awesome-ahakey` 项目收录和社区协作统筹。 |
+
+说明：
+
+- 一般问题和想法可以先进入 Issue 或 Discussion。
+- 代码和文档 PR 会由维护者 Review。
+- 社区项目优先进入 `awesome-ahakey`。
+- 涉及官方产品方向、默认体验或最终并入 `desktop` 的功能，会由官方产品软件负责人进一步确认。
+
+---
+
+## 2. 新贡献者默认流程
+
+大多数新贡献者没有 AhaKey 官方仓库的写权限。
+
+默认流程是：
+
+```text
+Fork 官方仓库
+→ 在自己的 Fork 里创建分支
+→ 修改代码或文档
+→ Push 到自己的 Fork
+→ 向 AhaKey 官方仓库提交 Pull Request
+→ 等待维护者 Review
+→ 通过后由维护者合并
+```
+
+也就是说，新贡献者通常是在自己的 Fork 里创建分支，**不是在 AhaKey 官方仓库里创建分支**。
+
+---
+
+## 3. 核心规则
+
+**不要直接 push 到 `main`。**
+
+所有改动建议经过：
+
+```text
+Branch
+→ Pull Request
+→ Review
+→ Merge
+```
+
+即使是长期贡献者，也应该通过 PR 协作。
+
+---
+
+## 4. 分支命名建议
+
+请保持分支名称简单、清晰、可读。
+
+推荐前缀：
+
+```text
+feat/...
+fix/...
+docs/...
+chore/...
+refactor/...
+```
+
+示例：
+
+```text
+feat/macos-status-widget
+fix/windows-ble-reconnect
+docs/install-guide-update
+chore/release-note-cleanup
+```
+
+---
+
+## 5. Pull Request 规则
+
+### 一个 PR 只解决一个问题
+
+请尽量保持 PR 聚焦，不要把互不相关的改动混在一起。
+
+好的 PR 示例：
+
+- 改进一篇安装说明
+- 补清楚一段协议文档
+- 修复一个可复现 bug
+- 增加一个社区项目条目
+- 增加一个最小示例
+
+### PR 标题建议
+
+```text
+docs: improve Windows install guide
+fix: clarify BLE reconnect behavior
+feat: add macOS build notes
+chore: update release documentation
+```
+
+### 提交 PR 前请确认
+
+- [ ] PR 目的清楚
+- [ ] 修改范围聚焦
+- [ ] 已经本地测试，或说明为什么无法测试
+- [ ] 涉及 UI、连接、设备行为时提供截图或日志
+- [ ] 涉及文档时保证链接有效
+- [ ] 不提交 API Key、Token、私钥或个人配置
+- [ ] 不提交无关二进制文件、安装包或编译产物
+- [ ] 大功能、协议变更、默认行为变化已经先开 Issue 或 Discussion
+
+---
+
+## 6. 什么时候应该先讨论？
+
+如果你不确定改动是否应该进入官方仓库，请先开 Issue 或 Discussion。
+
+尤其是这些情况：
+
+- 新功能方向不确定
+- 改动影响默认体验
+- 改动涉及 BLE 协议行为
+- 改动涉及 release 或仓库结构
+- 改动比较大，Review 成本较高
+- 个人 workflow 或第三方工具，不确定是否应该合进官方
+
+简单理解：
+
+```text
+不确定 → 先 Discussion
+明确问题 → 提 Issue
+已经改好 → 提 Pull Request
+独立作品 → 提到 awesome-ahakey
+```
+
+---
+
+## 7. 社区作品
+
+如果你做的是独立客户端、工具、脚本、教程、workflow 或桌面 setup，通常不需要直接合进官方 `desktop`。
+
+请优先提交到：
+
+👉 [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)
+
+社区项目可以独立存在。优秀项目后续可以再讨论是否进入官方版本。
+
+---
+
+## 8. 贡献者认可
+
+AhaKey 对贡献的回报，是让作品被看见、让贡献被记录、让长期贡献者参与产品方向，**不是自动发放仓库权限**。
+
+| 身份 | 如何达到 | 你会获得什么 |
+|---|---|---|
+| Community Member | 使用 AhaKey，参与 Issue / Discussion | 参与社区、提问、反馈和讨论 |
+| Maker | 作品、教程或 workflow 被 `awesome-ahakey` 收录 | 作者署名、项目展示、被更多用户看到 |
+| Contributor | PR 被合并，或高质量反馈推动项目改进 | Release notes 鸣谢、贡献记录、优先被维护者关注 |
+| Core Contributor / Maintainer | 长期稳定贡献，并被维护者邀请 | 参与路线图、Review、维护某个方向 |
+
+GitHub 仓库权限不会自动授予。权限只会在有明确维护需要、长期信任和双方意愿时，由维护者邀请并按最小权限授予。
+
+---
+
+## 9. GitHub 权限说明
+
+新贡献者默认使用：
+
+```text
+Fork → Branch in your fork → Pull Request
+```
+
+被邀请的 Core Contributor 可能会获得指定仓库的 `Write` 权限。
+
+Maintainer 可能会获得指定仓库或方向的 `Maintain` 权限。
+
+无论是否拥有写权限，都不应直接 push 到 `main`。
+
+---
+
+## 10. Review 预期
+
+AhaKey 目前由小团队维护，我们会尽量定期查看 Issue、Discussion 和 PR。
+
+请理解：
+
+- PR 不一定会立即 Review；
+- 大功能可能需要先讨论方向；
+- 不适合官方版本的功能，可能会被建议放到 `awesome-ahakey`；
+- 维护者可能会要求补充测试、截图、日志或文档。
+
+我们鼓励小而清晰的贡献，这类贡献通常更容易被 Review 和合并。
+
+---
+
+## 11. 合并边界
+
+官方仓库优先接受稳定、通用、可维护的改动。
+
+个人强定制 workflow、实验性工具、第三方集成和二创项目，不一定适合合进官方版本，但非常适合进入 `awesome-ahakey`。
+
+我们的目标不是把所有东西都合并进官方，而是让高质量的 AhaKey 玩法都能被发现、复用和继续改造。
+
+---
+
+## 12. 开源协议
+
+AhaKey 的不同仓库和资料采用不同开放策略。
+
+| 内容 | 开放方式 |
+|---|---|
+| 官方桌面客户端代码 | 以对应仓库 `LICENSE` 文件为准，当前建议使用 MIT License |
+| BLE 协议文档、README、教程类内容 | 以对应仓库声明为准，建议使用 CC BY 4.0 或随仓库 LICENSE |
+| 社区项目、第三方工具、workflow | 由项目作者自行选择许可证，`awesome-ahakey` 仅做收录展示 |
+| 固件源码、硬件设计文件、生产资料 | 不默认公开，采用申请制或受控开放 |
+| 第三方依赖 | 遵守其原始许可证和版权声明 |
+
+请注意：
+
+- 开源仓库的具体授权以该仓库根目录中的 `LICENSE` 文件为准。
+- 如果某个仓库没有明确 LICENSE，请不要默认认为它可以被自由复制、商用或再分发。
+- 固件源码、硬件设计文件和生产资料即使向特定开发者开放，也不等于允许公开传播、网络分发、仿制、打板、量产或销售。
+- 商业硬件合作、OEM、ODM、批量生产、对外销售等情况，需要单独取得书面授权。
+
+---
+
+## 13. 原创性与第三方代码
+
+AhaKey 官方仓库中的核心代码和产品设计由 AhaKey 团队自主设计和开发，并非基于某个现有项目 fork、改名或二次包装而来。
+
+我们重视开源许可证和原创性。如果仓库中使用第三方依赖、系统 SDK、开源库、示例代码或外部资源，应遵守其原始许可证，并在相关文件中保留必要的版权和许可证声明。
+
+贡献者提交 PR 时，请确保：
+
+- 你有权提交相关代码、文档或资源；
+- 不要直接复制不兼容许可证的第三方代码；
+- 不要移除第三方版权声明或许可证信息；
+- 如果引用外部资料，请在 PR 中说明来源；
+- 不要提交公司内部代码、客户代码、受限资料或未经授权的硬件 / 固件资料。
+
+---
+
+## 14. 固件源码与硬件资料
+
+AhaKey 鼓励用户参与开源共创。
+
+默认开放内容请以组织首页和各仓库 README 为准。
+
+以下资料不默认公开：
+
+- 固件源码
+- 硬件原理图、PCB、生产资料
+- 官方设备内部实现细节
+- 可用于仿制、打板、量产、销售的硬件资料
+
+如果你确实需要访问硬件嵌入式源码或固件资料，请提交 Source Access Request。
+
+未经授权，不得将受控资料公开上传、网络分发、转发、出售、共享，不得用于自行打板、仿制、量产、销售或开发竞争性硬件产品。
+
+---
+
+## 15. 相关文档
+
+- [`SUPPORT.md`](https://github.com/AhakeyAI/.github/blob/main/SUPPORT.md)：使用、安装、构建、协议问题支持入口
+- [`SECURITY.md`](https://github.com/AhakeyAI/.github/blob/main/SECURITY.md)：安全问题、密钥泄露、隐私风险入口
+- [`CODE_OF_CONDUCT.md`](https://github.com/AhakeyAI/.github/blob/main/CODE_OF_CONDUCT.md)：社区行为规范
+- [`PULL_REQUEST_TEMPLATE.md`](https://github.com/AhakeyAI/.github/blob/main/.github/PULL_REQUEST_TEMPLATE.md)：PR 提交模板
+
+---
+
+## 16. 一句话原则
+
+官方版本追求稳定，社区版本鼓励探索。
+
+不是所有 DIY 都必须合进官方，但所有高质量的 AhaKey 工具、教程和 workflow 都值得被看见。
+
+<p align="right"><a href="#top">↑ Back to top</a></p>
+
+---
+
+<a id="en"></a>
+
+# Contributing to AhaKey
+
+Thank you for contributing to AhaKey.
+
+This document explains **how to contribute, how collaboration works, how contributions are recognized, and how GitHub permissions are handled**.
+
+If you are not sure which repository to visit first, please start from the organization homepage:
+
+👉 [`AhaKey Community`](https://github.com/AhakeyAI)
+
+---
+
+## 1. Current maintainers
+
+AhaKey is currently maintained by a small team. Different types of contributions may be reviewed by different maintainers.
+
+| Member | Main role | Responsibility |
+|---|---|---|
+| Ann | Official Product Software Lead | Leads ongoing official product software iteration. Features that may eventually become part of the official `desktop` version need final product and software direction review from Ann. |
+| ZephyrKeXiner | Code Review & Merge Maintainer | Reviews incoming code, evaluates PR quality, and helps decide whether changes should be merged. |
+| Vivian | Community Operations Maintainer | Maintains community operations, guides users, coordinates Discussions / Issues, curates `awesome-ahakey`, and supports community collaboration. |
+
+Notes:
+
+- General questions and ideas should start from Issues or Discussions.
+- Code and documentation PRs will be reviewed by maintainers.
+- Community projects should usually go to `awesome-ahakey` first.
+- Features that affect official product direction, default experience, or the official `desktop` version may require final review from the official product software lead.
+
+---
+
+## 2. Default workflow for new contributors
+
+Most new contributors do not have write access to official AhaKey repositories.
+
+The default workflow is:
+
+```text
+Fork the official repository
+→ Create a branch in your fork
+→ Make code or documentation changes
+→ Push to your fork
+→ Open a Pull Request to the official AhaKey repository
+→ Wait for maintainer review
+→ Maintainers merge after approval
+```
+
+In other words, new contributors usually create branches in their own forks, **not in the official AhaKey repositories**.
+
+---
+
+## 3. Core rule
 
 **Do not push directly to `main`.**
 
 All changes should go through:
 
-1. a branch
-2. a pull request
-3. review
-4. merge
+```text
+Branch
+→ Pull Request
+→ Review
+→ Merge
+```
+
+Even long-term contributors should collaborate through Pull Requests.
 
 ---
 
-## Contributor Types
-
-### 1. Community contributors
-
-This is the default path for new contributors.
-
-Recommended workflow:
-
-1. Fork the repository
-2. Create a branch in your fork
-3. Make focused changes
-4. Open a pull request to the upstream repository
-
-This path is suitable for:
-
-- documentation updates
-- small fixes
-- setup notes
-- integration experiments
-- showcase and community resource updates
-
-### 2. Core contributors
-
-Core contributors are trusted contributors who collaborate more frequently.
-
-Recommended workflow:
-
-1. Create a branch in the official repository
-2. Open a pull request to `main`
-3. Wait for review
-4. Merge after approval
-
-Core contributors should still avoid pushing directly to `main`.
-
-### 3. Maintainers
-
-Maintainers are responsible for:
-
-- reviewing pull requests
-- merging approved changes
-- managing labels, issues, and discussions
-- preparing releases
-- keeping repository boundaries clear
-
----
-
-## Recommended Teams
-
-When the community grows, we recommend keeping at least two teams:
-
-### `maintainers`
-Suggested permission:
-- admin
-
-Responsibilities:
-- merge pull requests
-- manage releases
-- configure repository settings
-- maintain branch protection rules
-
-### `core-contributors`
-Suggested permission:
-- write
-
-Responsibilities:
-- create branches in official repositories
-- submit pull requests
-- participate in ongoing technical collaboration
-
-For most new contributors, fork + pull request is preferred.
-
----
-
-## Branch Naming
+## 4. Branch naming
 
 Please keep branch names simple and descriptive.
 
 Recommended prefixes:
 
-- `feat/...`
-- `fix/...`
-- `docs/...`
-- `chore/...`
+```text
+feat/...
+fix/...
+docs/...
+chore/...
+refactor/...
+```
 
 Examples:
 
-- `feat/macos-status-widget`
-- `fix/windows-bridge-readme`
-- `docs/install-guide-update`
-- `chore/release-note-cleanup`
+```text
+feat/macos-status-widget
+fix/windows-ble-reconnect
+docs/install-guide-update
+chore/release-note-cleanup
+```
 
 ---
 
-## Pull Request Rules
+## 5. Pull Request rules
 
-### Keep pull requests focused
+### One PR, one purpose
 
-One pull request should solve one problem.
+Please keep each PR focused. Avoid mixing unrelated changes in the same PR.
 
-Avoid mixing unrelated changes in the same PR.
-
-### Good pull request examples
+Good PR examples:
 
 - improve one installation guide
 - clarify one protocol section
-- fix one build instruction
-- add one community resource entry
+- fix one reproducible bug
+- add one community project entry
+- add one minimal example
 
 ### PR title examples
 
-- `docs: improve Windows install guide`
-- `fix: clarify BLE bridge setup`
-- `feat: add macOS build notes`
+```text
+docs: improve Windows install guide
+fix: clarify BLE reconnect behavior
+feat: add macOS build notes
+chore: update release documentation
+```
 
-### Suggested PR template
+### Before opening a PR
 
-```md
-## What this PR does
+Please check:
 
--
+- [ ] The purpose is clear
+- [ ] The scope is focused
+- [ ] Tested locally, or explained why not
+- [ ] Screenshots or logs are provided when UI, connection, or device behavior is involved
+- [ ] Links are valid for documentation changes
+- [ ] No API keys, tokens, private keys, or personal config
+- [ ] No unrelated binaries, installers, or build artifacts
+- [ ] Large features, protocol changes, or default behavior changes are discussed first
 
-## Why
+---
 
--
+## 6. When to discuss first
 
-## Scope
+If you are not sure whether a change belongs in the official repositories, please open an Issue or Discussion first.
 
--
+Especially for:
 
-## Notes
+- uncertain feature direction
+- changes to default user experience
+- BLE protocol behavior changes
+- release or repository structure changes
+- large changes with high review cost
+- personal workflows or third-party tools that may not belong in official repos
 
--
+Simple rule:
+
+```text
+Not sure → Discussion
+Clear problem → Issue
+Already changed something → Pull Request
+Independent project → awesome-ahakey
 ```
 
 ---
 
-## Review Rules
+## 7. Community projects
 
-### Basic review rule
+If you built an independent client, tool, script, tutorial, workflow, or desktop setup, it usually does not need to be merged into the official `desktop` repo.
 
-A pull request should be merged only after review.
+Please submit it to:
 
-Recommended minimum rule:
+👉 [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)
 
-- at least 1 approval
-- unresolved review comments should be addressed
-- no direct push to `main`
-
-### Fast-merge candidates
-
-These can usually be reviewed and merged more quickly:
-
-- documentation updates
-- README improvements
-- showcase entries
-- small community resource updates
-
-### Higher-scrutiny changes
-
-These should be reviewed more carefully:
-
-- protocol command behavior
-- desktop platform source code
-- release-related changes
-- firmware-related documentation
-- repository structure changes
+Community projects can exist independently. High-value projects may later be discussed as official features.
 
 ---
 
-## Recommended Branch Protection
+## 8. Contributor recognition
 
-For core repositories such as:
+AhaKey rewards contribution with visibility, trust, and influence — **not automatic repository permissions**.
 
-- `.github`
-- `desktop`
-- `protocol`
-- `awesome-ahakey`
-- `firmware`
+| Role | How it happens | What it means |
+|---|---|---|
+| Community Member | Use AhaKey, join Issues or Discussions | Join the community, ask questions, and share feedback |
+| Maker | Your project, tutorial, or workflow is listed in `awesome-ahakey` | Author credit and project visibility |
+| Contributor | Your PR is merged, or your feedback improves the project | Release notes recognition, contribution record, maintainer attention |
+| Core Contributor / Maintainer | Long-term trusted contribution and maintainer invitation | Help shape roadmap, review, and maintain an area |
 
-we recommend protecting the `main` branch with rules such as:
-
-- require a pull request before merging
-- require at least 1 approval
-- require conversation resolution before merging
-- do not allow force pushes
-- do not allow branch deletion
-
-As the project grows, status checks and CI can be added later.
+GitHub repository permissions are not granted automatically. They may be granted only when there is a clear maintenance need, long-term trust, and mutual agreement.
 
 ---
 
-## Repository-Specific Contribution Suggestions
+## 9. GitHub access
 
-### `desktop`
-Best for:
-- platform docs
-- build instructions
-- bug fixes
-- desktop client improvements
-- platform-specific notes for Windows and macOS
+New contributors use:
 
-### `protocol`
-Best for:
-- protocol docs
-- minimal examples
-- command clarification
-- BLE service explanations
-
-### `awesome-ahakey`
-Best for:
-- community tools
-- showcases
-- workflows
-- tutorials
-- integrations
-
-### `firmware`
-Best for:
-- release notes
-- update instructions
-- compatibility notes
-- official firmware documentation
-
----
-
-## Communication Suggestions
-
-Before making larger changes, contributors are encouraged to:
-
-- open an issue
-- start a discussion
-- confirm scope with maintainers
-
-This is especially recommended for:
-
-- architectural changes
-- repository restructuring
-- protocol behavior changes
-- release process changes
-
----
-
-## AhaKey-Specific Notes
-
-Before contributing, contributors are encouraged to first identify the most relevant repository:
-
-- `desktop` — official desktop baseline
-- `protocol` — BLE protocol documentation and examples
-- `awesome-ahakey` — community projects, workflows, and showcases
-- `firmware` — firmware-related release notes and documentation
-
-For questions, ideas, and early discussion, please use AhaKey Discussions when appropriate.
-
-For installation and user-facing setup guidance, please prefer the official website / documentation pages when available.
-
-Please also read:
-
-- `SUPPORT.md`
-- `SECURITY.md`
-- `CODE_OF_CONDUCT.md`
-
----
-
-## Preferred Workflow Summary
-
-### For new contributors
-**Fork → Branch → PR**
-
-### For core contributors
-**Official repo branch → PR → Review → Merge**
-
-### For maintainers
-**Review → Approve → Merge → Release**
-
----
-
-# 简体中文
-
-## AhaKey 社区协作规则
-
-这份文档用于说明，AhaKey 社区中的贡献者应该如何参与各个仓库的协作。
-
-我们的目标很简单：
-
-- 让贡献路径保持开放
-- 让 `main` 分支保持稳定
-- 让 review 和 merge 过程可预期
-- 让新贡献者容易参与
-
----
-
-## 核心规则
-
-**不要直接 push 到 `main`。**
-
-所有改动统一走：
-
-1. 新建分支
-2. 提交 PR
-3. review
-4. merge
-
----
-
-## 贡献者类型
-
-### 1）社区贡献者
-
-这是默认的参与路径，适合刚进入社区的新贡献者。
-
-推荐流程：
-
-1. Fork 仓库
-2. 在自己的 fork 中创建分支
-3. 完成改动
-4. 向上游仓库提交 PR
-
-适合的贡献类型包括：
-
-- 文档更新
-- 小修复
-- setup 说明
-- integration 实验
-- showcase / 社区资源补充
-
-### 2）核心贡献者
-
-核心贡献者适合已经持续参与并且协作比较稳定的人。
-
-推荐流程：
-
-1. 在官方仓库中创建分支
-2. 向 `main` 提交 PR
-3. 等待 review
-4. 审核通过后再 merge
-
-即使是核心贡献者，也不建议直接 push 到 `main`。
-
-### 3）维护者
-
-维护者主要负责：
-
-- review PR
-- merge 已通过的改动
-- 管理 labels、issues、discussions
-- 准备 release
-- 保持仓库边界清晰
-
----
-
-## 推荐的团队结构
-
-当社区开始扩大后，建议至少保留两个 team：
-
-### `maintainers`
-建议权限：
-- admin
-
-主要职责：
-- 合并 PR
-- 管理 release
-- 配置仓库设置
-- 维护分支保护规则
-
-### `core-contributors`
-建议权限：
-- write
-
-主要职责：
-- 在官方仓库中创建分支
-- 提交 PR
-- 参与持续性的技术协作
-
-对于大多数新贡献者，仍然建议优先使用 fork + PR。
-
----
-
-## 分支命名规范
-
-请尽量保持分支名称简单、清晰、可读。
-
-推荐前缀：
-
-- `feat/...`
-- `fix/...`
-- `docs/...`
-- `chore/...`
-
-示例：
-
-- `feat/macos-status-widget`
-- `fix/windows-bridge-readme`
-- `docs/install-guide-update`
-- `chore/release-note-cleanup`
-
----
-
-## Pull Request 规则
-
-### 一个 PR 只解决一个问题
-
-请尽量保持 PR 聚焦。
-
-不要把互不相关的改动混在同一个 PR 里。
-
-### 好的 PR 示例
-
-- 改进一篇安装说明
-- 补清楚一段协议文档
-- 修复一条构建说明
-- 增加一条社区资源收录
-
-### PR 标题示例
-
-- `docs: improve Windows install guide`
-- `fix: clarify BLE bridge setup`
-- `feat: add macOS build notes`
-
-### 推荐 PR 模板
-
-```md
-## What this PR does
-
--
-
-## Why
-
--
-
-## Scope
-
--
-
-## Notes
-
--
+```text
+Fork → Branch in your fork → Pull Request
 ```
 
----
+Invited Core Contributors may receive `Write` access to specific repositories.
 
-## Review 规则
+Maintainers may receive `Maintain` access for specific repositories or areas.
 
-### 基础 review 规则
-
-一个 PR 应该在 review 之后再 merge。
-
-推荐最小规则：
-
-- 至少 1 个 approval
-- review 评论未解决前不要 merge
-- 不允许直接 push 到 `main`
-
-### 可以相对快合的改动
-
-以下类型通常可以更快 review 和 merge：
-
-- 文档更新
-- README 改进
-- showcase 条目补充
-- 社区资源链接更新
-
-### 需要更谨慎 review 的改动
-
-以下改动建议更认真地 review：
-
-- 协议命令相关内容
-- desktop 平台源码
-- release 相关内容
-- firmware 相关文档
-- 仓库结构调整
+No one should push directly to `main`, with or without write access.
 
 ---
 
-## 推荐的 `main` 分支保护规则
+## 10. Review expectations
 
-对于以下核心仓库：
+AhaKey is currently maintained by a small team. We try to review Issues, Discussions, and PRs regularly.
 
-- `.github`
-- `desktop`
-- `protocol`
-- `awesome-ahakey`
-- `firmware`
+Please understand that:
 
-建议为 `main` 打开保护规则，例如：
+- PRs may not be reviewed immediately;
+- large features may need design discussion first;
+- features that do not fit the official version may be redirected to `awesome-ahakey`;
+- maintainers may ask for tests, screenshots, logs, or documentation.
 
-- merge 前必须走 pull request
-- 至少需要 1 个 approval
-- conversation 未解决前不能 merge
-- 不允许 force push
-- 不允许删除分支
-
-后续随着项目成长，再逐步补 CI 和状态检查。
+Small and focused contributions are usually easier to review and merge.
 
 ---
 
-## 各仓库适合接收什么类型的贡献
+## 11. Merge scope
 
-### `desktop`
-适合：
-- 平台文档
-- 构建说明
-- bug 修复
-- desktop client 改进
-- Windows / macOS 平台相关说明
+Official repositories prioritize stable, general, and maintainable changes.
 
-### `protocol`
-适合：
-- 协议文档
-- 最小示例
-- 命令说明补充
-- BLE service 说明优化
+Highly personal workflows, experimental tools, third-party integrations, and remixes may not belong in the official version, but they are very welcome in `awesome-ahakey`.
 
-### `awesome-ahakey`
-适合：
-- 社区工具
-- showcase
-- workflows
-- tutorials
-- integrations
-
-### `firmware`
-适合：
-- 发布说明
-- 升级说明
-- 兼容性说明
-- 官方固件相关文档
+Our goal is not to merge everything into the official product, but to make high-quality AhaKey ideas discoverable, reusable, and extensible.
 
 ---
 
-## 沟通建议
+## 12. Licensing
 
-当改动比较大时，建议先：
+Different AhaKey repositories and materials may use different openness models.
 
-- 开 issue
-- 发 discussion
-- 先和 maintainers 对齐范围
+| Content | Openness model |
+|---|---|
+| Official desktop client code | Subject to the `LICENSE` file in the repository; MIT License is recommended for open software repositories |
+| BLE protocol docs, README files, tutorials | Subject to the repository notice; CC BY 4.0 or the repository LICENSE is recommended for documentation |
+| Community projects, third-party tools, workflows | Licensed by their own authors; `awesome-ahakey` only lists and showcases them |
+| Firmware source, hardware design files, production materials | Not public by default; controlled access or request-based access |
+| Third-party dependencies | Subject to their original licenses and copyright notices |
 
-尤其是以下类型的改动，建议先沟通：
+Notes:
 
-- 架构调整
-- 仓库重组
-- 协议行为变化
-- release 流程变化
-
----
-
-## AhaKey 补充说明
-
-在开始贡献前，建议先判断你的改动最适合进入哪个仓库：
-
-- `desktop` — 官方 desktop baseline
-- `protocol` — BLE 协议文档与示例
-- `awesome-ahakey` — 社区项目、workflow 和 showcase
-- `firmware` — 固件相关发布说明与文档
-
-如果是问题、想法或前期讨论，建议优先使用 AhaKey Discussions。
-
-如果涉及安装、使用说明和面向普通用户的 setup 指引，优先以官网 / 独立站文档为准。
-
-同时也请阅读：
-
-- `SUPPORT.md`
-- `SECURITY.md`
-- `CODE_OF_CONDUCT.md`
+- The license of each open repository is defined by its own `LICENSE` file.
+- If a repository has no clear LICENSE, do not assume it can be freely copied, used commercially, or redistributed.
+- Firmware source, hardware design files, and production materials are not automatically open source even if they are shared with selected developers.
+- Commercial hardware cooperation, OEM, ODM, mass production, resale, or customer delivery requires separate written authorization.
 
 ---
 
-## 推荐协作流程总结
+## 13. Originality and third-party code
 
-### 对新贡献者
-**Fork → Branch → PR**
+The core code and product design in official AhaKey repositories are designed and developed by the AhaKey team. They are not a renamed fork or repackaging of another existing project.
 
-### 对核心贡献者
-**官方仓库建分支 → PR → Review → Merge**
+We respect open-source licenses and original authorship. If a repository uses third-party dependencies, system SDKs, open-source libraries, sample code, or external assets, their original licenses and copyright notices should be respected and preserved.
 
-### 对维护者
-**Review → Approve → Merge → Release**
+When submitting a PR, please make sure that:
+
+- you have the right to submit the code, documentation, or assets;
+- you do not copy third-party code with incompatible licenses;
+- you do not remove copyright or license notices;
+- you mention the source if external material is referenced;
+- you do not submit company-internal code, customer code, restricted materials, or unauthorized hardware / firmware materials.
+
+---
+
+## 14. Firmware source and hardware materials
+
+AhaKey encourages open collaboration and community-driven development.
+
+Please refer to the organization homepage and repository README files for what is open by default.
+
+The following materials are not public by default:
+
+- firmware source code
+- schematics, PCB files, production materials
+- internal implementation details
+- materials that can be used for cloning, manufacturing, or resale
+
+If you really need firmware or embedded source access, please submit a Source Access Request.
+
+Without authorization, controlled materials may not be publicly uploaded, redistributed, shared, sold, used for board reproduction, cloning, manufacturing, resale, or competing hardware development.
+
+---
+
+## 15. Related files
+
+- [`SUPPORT.md`](https://github.com/AhakeyAI/.github/blob/main/SUPPORT.md): support entry for usage, installation, build, and protocol questions
+- [`SECURITY.md`](https://github.com/AhakeyAI/.github/blob/main/SECURITY.md): security issues, leaked secrets, and privacy risks
+- [`CODE_OF_CONDUCT.md`](https://github.com/AhakeyAI/.github/blob/main/CODE_OF_CONDUCT.md): community behavior expectations
+- [`PULL_REQUEST_TEMPLATE.md`](https://github.com/AhakeyAI/.github/blob/main/.github/PULL_REQUEST_TEMPLATE.md): PR template
+
+---
+
+## 16. One-line principle
+
+Official versions prioritize stability. Community projects encourage exploration.
+
+Not every DIY project needs to merge into the official product, but high-quality AhaKey tools, tutorials, and workflows deserve to be seen.
+
+<p align="right"><a href="#top">↑ Back to top</a></p>
