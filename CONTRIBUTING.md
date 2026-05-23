@@ -176,14 +176,26 @@ chore: update release documentation
 
 ## 8. 贡献者认可
 
-AhaKey 对贡献的回报，是让作品被看见、让贡献被记录、让长期贡献者参与产品方向，**不是自动发放仓库权限**。
+AhaKey 对贡献的回报，不只是“感谢”和“署名”。
+
+我们希望让真正参与共创的人获得：**被看见、被记录、被邀请体验新产品、参与路线图、影响官方产品方向**的机会。
+
+这些权益不是自动兑换，也不是固定承诺，而是 AhaKey 对长期、高质量贡献者的优先支持和认可。
 
 | 身份 | 如何达到 | 你会获得什么 |
 |---|---|---|
-| Community Member | 使用 AhaKey，参与 Issue / Discussion | 参与社区、提问、反馈和讨论 |
-| Maker | 作品、教程或 workflow 被 `awesome-ahakey` 收录 | 作者署名、项目展示、被更多用户看到 |
-| Contributor | PR 被合并，或高质量反馈推动项目改进 | Release notes 鸣谢、贡献记录、优先被维护者关注 |
-| Core Contributor / Maintainer | 长期稳定贡献，并被维护者邀请 | 参与路线图、Review、维护某个方向 |
+| Community Member | 使用 AhaKey，参与 Issue / Discussion | 参与社区讨论；获得基础答疑；有机会参与公开测试和用户反馈收集。 |
+| Maker | 作品、教程或 workflow 被 `awesome-ahakey` 收录 | 作者署名；项目展示；社区周报 / 官网 / 社群推荐机会；可使用 **AhaKey Maker** 头衔；优先参与软件新功能体验。 |
+| Contributor | PR 被合并，或高质量反馈推动项目改进 | Release notes 鸣谢；Contributor Wall 展示机会；PR 优先 Review；优先参与官方客户端、协议能力、新 workflow 的内测；视贡献情况获得 AhaKey 周边、配件或设备优惠。 |
+| Core Contributor / Maintainer | 长期稳定贡献，并被维护者邀请 | 参与路线图讨论；参与新硬件 / 新软件方向的早期评审；可成为某个方向的 owner / maintainer；视情况获得原型机、测试机、免费内测设备或联合共创署名机会。 |
+
+我们也可能为特别优秀的社区成员设置更具荣誉感的社区称号，例如：
+
+- **AhaKey Maker**
+- **AhaKey Workflow Pioneer**
+- **AhaKey Core Contributor**
+- **AhaKey Community Maintainer**
+- **AhaKey Chief Workflow Officer**，用于特别活跃、长期推动某类工作流生态的共创者
 
 GitHub 仓库权限不会自动授予。权限只会在有明确维护需要、长期信任和双方意愿时，由维护者邀请并按最小权限授予。
 
@@ -220,17 +232,7 @@ AhaKey 目前由小团队维护，我们会尽量定期查看 Issue、Discussion
 
 ---
 
-## 11. 合并边界
-
-官方仓库优先接受稳定、通用、可维护的改动。
-
-个人强定制 workflow、实验性工具、第三方集成和二创项目，不一定适合合进官方版本，但非常适合进入 `awesome-ahakey`。
-
-我们的目标不是把所有东西都合并进官方，而是让高质量的 AhaKey 玩法都能被发现、复用和继续改造。
-
----
-
-## 12. 开源协议
+## 11. 开源协议
 
 AhaKey 的不同仓库和资料采用不同开放策略。
 
@@ -251,7 +253,7 @@ AhaKey 的不同仓库和资料采用不同开放策略。
 
 ---
 
-## 13. 原创性与第三方代码
+## 12. 原创性与第三方代码
 
 AhaKey 官方仓库中的核心代码和产品设计由 AhaKey 团队自主设计和开发，并非基于某个现有项目 fork、改名或二次包装而来。
 
@@ -267,7 +269,7 @@ AhaKey 官方仓库中的核心代码和产品设计由 AhaKey 团队自主设�
 
 ---
 
-## 14. 固件源码与硬件资料
+## 13. 固件源码与硬件资料
 
 AhaKey 鼓励用户参与开源共创。
 
@@ -280,26 +282,11 @@ AhaKey 鼓励用户参与开源共创。
 - 官方设备内部实现细节
 - 可用于仿制、打板、量产、销售的硬件资料
 
-如果你确实需要访问硬件嵌入式源码或固件资料，请提交 Source Access Request。
+如果你确实需要访问硬件嵌入式源码或固件资料，请提交 Source Access Request：
+
+👉 [`AhaKey 硬件源码访问申请表`](https://ahakey.com/cn/hardware-source/apply)
 
 未经授权，不得将受控资料公开上传、网络分发、转发、出售、共享，不得用于自行打板、仿制、量产、销售或开发竞争性硬件产品。
-
----
-
-## 15. 相关文档
-
-- [`SUPPORT.md`](https://github.com/AhakeyAI/.github/blob/main/SUPPORT.md)：使用、安装、构建、协议问题支持入口
-- [`SECURITY.md`](https://github.com/AhakeyAI/.github/blob/main/SECURITY.md)：安全问题、密钥泄露、隐私风险入口
-- [`CODE_OF_CONDUCT.md`](https://github.com/AhakeyAI/.github/blob/main/CODE_OF_CONDUCT.md)：社区行为规范
-- [`PULL_REQUEST_TEMPLATE.md`](https://github.com/AhakeyAI/.github/blob/main/.github/PULL_REQUEST_TEMPLATE.md)：PR 提交模板
-
----
-
-## 16. 一句话原则
-
-官方版本追求稳定，社区版本鼓励探索。
-
-不是所有 DIY 都必须合进官方，但所有高质量的 AhaKey 工具、教程和 workflow 都值得被看见。
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
 
@@ -476,14 +463,24 @@ Community projects can exist independently. High-value projects may later be dis
 
 ## 8. Contributor recognition
 
-AhaKey rewards contribution with visibility, trust, and influence — **not automatic repository permissions**.
+AhaKey rewards contribution with visibility, trust, early product access, and influence — **not automatic repository permissions**.
+
+These benefits are not automatic guarantees. They are ways for AhaKey to support long-term, high-quality contributors.
 
 | Role | How it happens | What it means |
 |---|---|---|
-| Community Member | Use AhaKey, join Issues or Discussions | Join the community, ask questions, and share feedback |
-| Maker | Your project, tutorial, or workflow is listed in `awesome-ahakey` | Author credit and project visibility |
-| Contributor | Your PR is merged, or your feedback improves the project | Release notes recognition, contribution record, maintainer attention |
-| Core Contributor / Maintainer | Long-term trusted contribution and maintainer invitation | Help shape roadmap, review, and maintain an area |
+| Community Member | Use AhaKey, join Issues or Discussions | Join the community, ask questions, share feedback, and join public feedback activities. |
+| Maker | Your project, tutorial, or workflow is listed in `awesome-ahakey` | Author credit, project visibility, community / website showcase opportunities, **AhaKey Maker** title, and early access to software features. |
+| Contributor | Your PR is merged, or your feedback improves the project | Release notes recognition, Contributor Wall opportunity, priority review, beta access to official client / protocol / workflow features, and possible AhaKey accessories, perks, or device discounts depending on contribution. |
+| Core Contributor / Maintainer | Long-term trusted contribution and maintainer invitation | Roadmap discussion, early review of new hardware / software directions, ownership of a specific area, and possible prototype, test device, free beta hardware, or co-creation credit depending on contribution and availability. |
+
+Special community titles may also be used for outstanding contributors, such as:
+
+- **AhaKey Maker**
+- **AhaKey Workflow Pioneer**
+- **AhaKey Core Contributor**
+- **AhaKey Community Maintainer**
+- **AhaKey Chief Workflow Officer** for contributors who continuously push forward a specific workflow ecosystem
 
 GitHub repository permissions are not granted automatically. They may be granted only when there is a clear maintenance need, long-term trust, and mutual agreement.
 
@@ -520,17 +517,7 @@ Small and focused contributions are usually easier to review and merge.
 
 ---
 
-## 11. Merge scope
-
-Official repositories prioritize stable, general, and maintainable changes.
-
-Highly personal workflows, experimental tools, third-party integrations, and remixes may not belong in the official version, but they are very welcome in `awesome-ahakey`.
-
-Our goal is not to merge everything into the official product, but to make high-quality AhaKey ideas discoverable, reusable, and extensible.
-
----
-
-## 12. Licensing
+## 11. Licensing
 
 Different AhaKey repositories and materials may use different openness models.
 
@@ -551,7 +538,7 @@ Notes:
 
 ---
 
-## 13. Originality and third-party code
+## 12. Originality and third-party code
 
 The core code and product design in official AhaKey repositories are designed and developed by the AhaKey team. They are not a renamed fork or repackaging of another existing project.
 
@@ -567,7 +554,7 @@ When submitting a PR, please make sure that:
 
 ---
 
-## 14. Firmware source and hardware materials
+## 13. Firmware source and hardware materials
 
 AhaKey encourages open collaboration and community-driven development.
 
@@ -580,25 +567,10 @@ The following materials are not public by default:
 - internal implementation details
 - materials that can be used for cloning, manufacturing, or resale
 
-If you really need firmware or embedded source access, please submit a Source Access Request.
+If you really need firmware or embedded source access, please submit a Source Access Request:
+
+👉 [`AhaKey Hardware Source Access Request`](https://ahakey.com/cn/hardware-source/apply)
 
 Without authorization, controlled materials may not be publicly uploaded, redistributed, shared, sold, used for board reproduction, cloning, manufacturing, resale, or competing hardware development.
-
----
-
-## 15. Related files
-
-- [`SUPPORT.md`](https://github.com/AhakeyAI/.github/blob/main/SUPPORT.md): support entry for usage, installation, build, and protocol questions
-- [`SECURITY.md`](https://github.com/AhakeyAI/.github/blob/main/SECURITY.md): security issues, leaked secrets, and privacy risks
-- [`CODE_OF_CONDUCT.md`](https://github.com/AhakeyAI/.github/blob/main/CODE_OF_CONDUCT.md): community behavior expectations
-- [`PULL_REQUEST_TEMPLATE.md`](https://github.com/AhakeyAI/.github/blob/main/.github/PULL_REQUEST_TEMPLATE.md): PR template
-
----
-
-## 16. One-line principle
-
-Official versions prioritize stability. Community projects encourage exploration.
-
-Not every DIY project needs to merge into the official product, but high-quality AhaKey tools, tutorials, and workflows deserve to be seen.
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
