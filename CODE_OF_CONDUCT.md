@@ -1,157 +1,230 @@
-[English](#english) | [简体中文](#简体中文)
+<a id="top"></a>
+
+<p align="center">
+  <a href="#zh-cn"><strong>简体中文</strong></a> ·
+  <a href="#en"><strong>English</strong></a>
+</p>
 
 ---
 
-# English
+<a id="zh-cn"></a>
 
-## AhaKey Community Code of Conduct
+# AhaKey 社区行为规范
 
-We want AhaKey to be a friendly, constructive, and welcoming community for builders, users, contributors, and maintainers.
+AhaKey 希望建设一个友好、开放、尊重创造的开发者社区。
 
-## Our expectations
+我们欢迎不同背景的用户、开发者、创作者、学生、研究者和硬件爱好者参与 AhaKey 的共创。
 
-When participating in the AhaKey community, please:
-
-- be respectful
-- assume good intent
-- give constructive feedback
-- focus on ideas, code, and behavior, not personal attacks
-- be patient with people from different backgrounds and skill levels
-- help make the community useful for both beginners and advanced builders
-
-## Examples of positive behavior
-
-Examples include:
-
-- asking questions clearly and politely
-- sharing ideas in a constructive way
-- giving actionable feedback
-- helping others debug problems
-- documenting your work so others can learn from it
-- respecting differences in workflow, tools, and preferences
-
-## Unacceptable behavior
-
-Examples include:
-
-- harassment or personal attacks
-- insulting, mocking, or dismissive language
-- discrimination or hateful conduct
-- repeated bad-faith arguments
-- deliberately disruptive behavior
-- publishing private or sensitive information without permission
-- spam or abusive self-promotion
-
-## Scope
-
-This Code of Conduct applies in:
-
-- Discussions
-- Issues
-- Pull Requests
-- documentation
-- comments and reviews
-- community spaces officially linked by AhaKey
-
-## Community project note
-
-The AhaKey ecosystem includes both officially maintained and community-maintained projects.
-
-Even when opinions differ on design, workflow, or implementation, discussion should stay respectful and productive.
-
-## Reporting
-
-If you experience or witness unacceptable behavior, please report it to:
-
-**zhangxinyang@ahakey.cn**
-
-Please include relevant context, screenshots, or links when possible.
-
-## Enforcement
-
-Community maintainers may take appropriate action in response to unacceptable behavior, including:
-
-- warning
-- content removal
-- temporary restriction
-- permanent removal from community spaces
-
-The response will depend on the severity and context of the behavior.
+这份文档适用于 AhaKey 相关的 GitHub Issues、Pull Requests、Discussions、社区项目、文档、社群讨论以及其他公开或半公开协作场景。
 
 ---
 
-# 简体中文
+## 1. 我们鼓励的行为
 
-## AhaKey 社区行为准则
+请尽量：
 
-我们希望 AhaKey 成为一个友好、建设性、欢迎不同类型参与者的社区，无论你是用户、开发者、贡献者还是维护者。
+- 友好交流；
+- 尊重不同经验水平的用户和开发者；
+- 聚焦问题本身，而不是攻击个人；
+- 清楚描述 bug、想法和反馈；
+- 在提问前先简单阅读相关 README；
+- 给出建设性建议；
+- 尊重维护者的时间；
+- 尊重原创项目和作者署名；
+- 鼓励用户分享自己的 DIY、工具、教程和 workflow；
+- 对实验性项目保持开放态度，同时清楚标注风险和限制。
 
-## 我们希望大家做到
+---
 
-在参与 AhaKey 社区时，请尽量做到：
+## 2. 不接受的行为
 
-- 保持尊重
-- 默认善意
-- 给出建设性反馈
-- 聚焦观点、代码和行为本身，而不是攻击个人
-- 对不同背景和不同水平的参与者保持耐心
-- 让社区对新手和资深开发者都保持友好
+AhaKey 社区不接受以下行为：
 
-## 积极行为示例
+- 人身攻击、辱骂、骚扰、威胁；
+- 歧视性、侮辱性或恶意言论；
+- 故意刷屏、引战、恶意挑衅；
+- 未经允许公开他人隐私信息；
+- 恶意提交无关 Issue / PR；
+- 冒充 AhaKey 官方成员、官方版本或官方发布渠道；
+- 故意传播虚假信息，误导用户安装或使用非官方版本；
+- 未经授权公开、转发、出售或共享受控源码、固件资料、硬件设计文件或生产资料；
+- 使用 AhaKey 社区资料从事仿制、低价复制、恶意竞争或损害社区生态的行为；
+- 其他破坏社区友好、开放、建设性氛围的行为。
 
-包括但不限于：
+---
 
-- 清楚、礼貌地提问
-- 以建设性的方式分享想法
-- 提供可执行的反馈
-- 帮助别人定位和解决问题
-- 记录你的做法，让别人也能学习
-- 尊重不同的工作流、工具偏好和实现方式
+## 3. 关于受控源码和硬件资料
 
-## 不可接受的行为
+AhaKey 鼓励开源共创，也鼓励用户基于公开协议和官方客户端进行二次开发。
 
-包括但不限于：
+但以下资料不默认公开：
 
-- 骚扰或人身攻击
-- 侮辱、嘲讽、轻蔑式表达
-- 歧视性或仇恨性言行
-- 持续的恶意争论
-- 故意扰乱讨论秩序
-- 未经允许公开他人的私人或敏感信息
-- 垃圾信息或带攻击性的自我推广
+- 固件源码；
+- 硬件原理图、PCB、生产资料；
+- 官方设备内部实现细节；
+- 可用于仿制、打板、量产、销售的硬件资料。
 
-## 适用范围
+未经授权，不得将受控资料公开上传、网络分发、转发、出售、共享，也不得用于自行打板、仿制、量产、销售或开发竞争性硬件产品。
 
-这份行为准则适用于：
+如果你确实需要访问硬件嵌入式源码或固件资料，请通过官方申请入口提交申请：
 
-- Discussions
-- Issues
-- Pull Requests
-- 文档内容
-- 评论与代码评审
-- AhaKey 官方关联的社区空间
+👉 [`AhaKey 硬件源码访问申请表`](https://ahakey.com/cn/hardware-source/apply)
 
-## 关于社区项目
+---
 
-AhaKey 生态中既有官方维护项目，也有社区维护项目。
+## 4. 如果你遇到不合适的行为
 
-即使在设计、工作流或实现方案上存在分歧，讨论也应该保持尊重和建设性。
+如果你在 AhaKey 社区中遇到不合适的行为，可以联系维护团队：
 
-## 举报方式
+```text
+Email: zhangxinyang@ahakey.cn
+Subject: [AhaKey Community] 行为规范反馈
+```
 
-如果你遇到或看到不可接受的行为，请联系：
+请尽量提供：
 
-**zhangxinyang@ahakey.cn**
+- 发生位置：Issue / PR / Discussion / 社群 / 其他；
+- 相关链接；
+- 简要说明；
+- 截图或记录，如果有；
+- 你希望我们如何协助处理。
 
-如果方便，请尽量附上相关上下文、截图或链接。
+我们会尽量认真查看反馈，并根据情况采取适当措施。
 
-## 处理方式
+---
 
-社区维护者会根据具体情况，对不当行为采取适当措施，包括：
+## 5. 维护者可能采取的措施
 
-- 警告
-- 删除内容
-- 临时限制参与
-- 永久移出社区空间
+根据情况，维护者可能会采取以下措施：
 
-具体处理方式将取决于行为的严重程度和上下文。
+- 提醒或警告；
+- 请求修改表达方式；
+- 隐藏或删除不合适内容；
+- 关闭 Issue / PR / Discussion；
+- 限制参与社区互动；
+- 移除仓库或组织访问权限；
+- 对严重违规行为保留进一步处理权利。
+
+维护者会尽量以公平、克制、透明的方式处理社区问题。
+
+---
+
+## 6. 一句话原则
+
+AhaKey 欢迎探索、实验和不同意见。
+
+但 AhaKey 社区应该保持友好、尊重、建设性，并共同保护开源共创生态。
+
+<p align="right"><a href="#top">↑ Back to top</a></p>
+
+---
+
+<a id="en"></a>
+
+# AhaKey Community Code of Conduct
+
+AhaKey aims to build a friendly, open, and creative developer community.
+
+We welcome users, developers, creators, students, researchers, and hardware enthusiasts from different backgrounds to participate in AhaKey collaboration.
+
+This document applies to AhaKey-related GitHub Issues, Pull Requests, Discussions, community projects, documentation, community chats, and other public or semi-public collaboration spaces.
+
+---
+
+## 1. Encouraged behavior
+
+Please try to:
+
+- communicate kindly;
+- respect users and developers with different experience levels;
+- focus on the issue, not the person;
+- describe bugs, ideas, and feedback clearly;
+- read relevant README files before asking questions;
+- provide constructive suggestions;
+- respect maintainers' time;
+- respect original projects and author credits;
+- encourage users to share their DIY projects, tools, tutorials, and workflows;
+- stay open to experimental projects while clearly marking risks and limitations.
+
+---
+
+## 2. Unacceptable behavior
+
+The following behavior is not acceptable in the AhaKey community:
+
+- personal attacks, insults, harassment, or threats;
+- discriminatory, offensive, or malicious language;
+- spam, flame wars, or intentional provocation;
+- publishing others' private information without permission;
+- maliciously submitting unrelated Issues or PRs;
+- impersonating official AhaKey members, official versions, or official release channels;
+- spreading false information that misleads users into installing or using unofficial versions;
+- publicly distributing, forwarding, selling, or sharing controlled source code, firmware materials, hardware design files, or production materials without authorization;
+- using AhaKey community materials for cloning, low-cost copying, malicious competition, or behavior that harms the community ecosystem;
+- any other behavior that damages a friendly, open, and constructive community environment.
+
+---
+
+## 3. Controlled source and hardware materials
+
+AhaKey encourages open collaboration and secondary development based on public protocols and official client software.
+
+However, the following materials are not public by default:
+
+- firmware source code;
+- schematics, PCB files, and production materials;
+- internal implementation details of official devices;
+- hardware materials that can be used for cloning, board reproduction, manufacturing, or resale.
+
+Without authorization, controlled materials may not be publicly uploaded, redistributed, forwarded, sold, or shared. They may not be used for board reproduction, cloning, manufacturing, resale, or competing hardware development.
+
+If you really need firmware or embedded source access, please submit a request through the official application page:
+
+👉 [`AhaKey Hardware Source Access Request`](https://ahakey.com/cn/hardware-source/apply)
+
+---
+
+## 4. Reporting inappropriate behavior
+
+If you encounter inappropriate behavior in the AhaKey community, please contact the maintainers:
+
+```text
+Email: zhangxinyang@ahakey.cn
+Subject: [AhaKey Community] Code of Conduct Report
+```
+
+Please include, if possible:
+
+- where it happened: Issue / PR / Discussion / community chat / other;
+- related links;
+- a short description;
+- screenshots or records, if available;
+- how you would like us to help.
+
+We will try to review reports carefully and take appropriate action.
+
+---
+
+## 5. Possible maintainer actions
+
+Depending on the situation, maintainers may take actions such as:
+
+- reminder or warning;
+- requesting changes in wording or behavior;
+- hiding or deleting inappropriate content;
+- closing Issues, PRs, or Discussions;
+- limiting community participation;
+- removing repository or organization access;
+- reserving further action for serious violations.
+
+Maintainers will try to handle community issues in a fair, restrained, and transparent way.
+
+---
+
+## 6. One-line principle
+
+AhaKey welcomes exploration, experimentation, and different opinions.
+
+But the AhaKey community should remain friendly, respectful, constructive, and protective of the open collaboration ecosystem.
+
+<p align="right"><a href="#top">↑ Back to top</a></p>
