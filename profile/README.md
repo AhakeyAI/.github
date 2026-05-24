@@ -35,7 +35,7 @@ AhaKey 采用 **“开源软件 + 开放协议 + 社区共创 + 受控硬件资�
 
 我们默认开放官方桌面客户端源码、BLE 协议文档、客户端开发示例和社区项目展示入口，鼓励用户基于公开协议开发自己的客户端、脚本、工具和 AI workflow。
 
-固件源码、硬件设计文件、PCB、BOM 和生产资料不默认公开。如确有学习、调试、研究或共创需要，可以通过官方申请入口提交申请。
+固件源码、硬件设计文件、PCB、BOM 和生产资料不默认公开。如确有学习、调试、研究或共创需要，可以通过 **AhaKey 硬件源码访问计划** 提交说明，我们会尽量支持真实的学习、开发和社区共创需求。
 
 > **AhaKey 尊重用户对自己设备的本地控制权。**  
 > 我们不会故意通过远程认证、云端锁定或固件更新，破坏已公开协议下的合理本地开发和第三方客户端使用。
@@ -53,7 +53,7 @@ AhaKey 采用 **“开源软件 + 开放协议 + 社区共创 + 受控硬件资�
 | 我做了独立版本 / 教程 / workflow，想提交给社区 | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 按模板提交你的项目，让更多人看到 |
 | 我发现了 bug | [`Issues`](https://github.com/AhakeyAI/desktop/issues) | 提交明确问题、复现步骤、日志或截图 |
 | 我有一个想法，想先讨论 | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | 发起问题、想法、玩法、共创讨论 |
-| 我想申请固件源码 / 硬件资料 | [`Permission`](https://ahakey.com/cn/hardware-source/apply) | 固件源码、硬件设计文件、生产资料不默认公开，需要单独申请 |
+| 我想参与更深层硬件 / 固件共创 | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source/apply) | 如果公开协议和示例还不够，可以提交说明，一起探索更底层的共创可能 |
 
 ---
 
@@ -118,38 +118,6 @@ AhaKey 采用 **“开源软件 + 开放协议 + 社区共创 + 受控硬件资�
 安全问题 → SECURITY
 社区行为规范 → CODE_OF_CONDUCT
 ```
-
----
-
-## AhaKey 默认开放什么？
-
-### 默认开放
-
-- 官方桌面客户端源码
-- AhaKey BLE 协议文档
-- 客户端开发示例
-- 社区工具、脚本、workflow、教程展示入口
-
-### 不默认开放
-
-- 固件源码
-- 硬件原理图 / PCB / 生产资料
-- 官方设备内部实现细节
-- 可用于仿制、量产、商业销售的硬件资料
-
-> 如果你只是想做自己的客户端、脚本或 workflow，通常**不需要固件源码**，请先阅读 [`protocol`](https://github.com/AhakeyAI/protocol)。
-
----
-
-## 本地优先与第三方客户端
-
-AhaKey 鼓励用户基于公开 BLE 协议开发自己的客户端、脚本、工具和 workflow。
-
-我们会尽量保持公开协议的稳定性和可理解性，并通过文档、示例代码和社区项目帮助开发者进行二次开发。
-
-> **我们不会故意通过远程认证、云端锁定或固件更新，破坏已公开协议下的合理本地开发和第三方客户端使用。**
-
-如果协议未来需要调整，我们会尽量通过文档、版本说明和社区讨论提前说明变化。
 
 ---
 
@@ -356,13 +324,14 @@ AhaKey 鼓励用户基于公开 BLE 协议开发自己的客户端、脚本、�
 
 ---
 
-## 关于固件源码 / 硬件资料
+## 关于硬件源码访问计划
 
-固件源码、硬件设计文件和生产资料**不默认公开**。
+如果公开协议、客户端示例和社区文档已经不能满足你的开发需求，例如你正在做固件级调试、底层行为研究、教程共创或希望参与更深层的硬件 / 固件贡献，可以通过下面的入口提交说明：
 
-如果你的项目确实需要访问这些资料，请先提交 [`Permission`](https://ahakey.com/cn/hardware-source/apply)。
+[`AhaKey 硬件源码访问计划`](https://ahakey.com/cn/hardware-source/apply)
 
-未经授权，不得使用受控资料自行打板、仿制、量产、销售或开发竞争性硬件产品。
+这个计划面向真实的学习、研究、调试和社区共创需求。  
+固件源码、硬件设计文件、PCB、BOM 和生产资料不默认公开，未经授权不得用于自行打板、仿制、量产、销售或开发竞争性硬件产品。
 
 ---
 
@@ -372,7 +341,7 @@ AhaKey 鼓励用户基于公开 BLE 协议开发自己的客户端、脚本、�
 
 | 入口 | 链接 | 适合做什么 |
 |---|---|---|
-| 官网 | [ahakey.com](https://ahakey.com) | 产品介绍、下载入口、社区说明、硬件源码申请 |
+| 官网 | [ahakey.com](https://ahakey.com) | 产品介绍、下载入口、社区说明、硬件源码访问计划 |
 | GitHub | [AhakeyAI](https://github.com/AhakeyAI) | 开源代码、协议文档、Issue、PR、社区项目 |
 | Discord | [AhaKey Discord](https://discord.gg/Nn48cJXa) | 海外用户交流、开发者讨论、快速反馈 |
 | X / Twitter | [@zhngxnyng199073](https://x.com/zhngxnyng199073) | 海外动态、产品更新、开发者内容 |
@@ -458,7 +427,7 @@ AhaKey follows a layered openness model: **open-source software + open protocol 
 
 We open the official desktop client source code, BLE protocol documentation, client development examples, and community project showcase entry points by default. We encourage developers to build their own clients, scripts, tools, and AI workflows based on the public protocol.
 
-Firmware source code, hardware design files, PCB files, BOM, and production materials are not public by default. If you need them for learning, debugging, research, or collaboration, you can submit a request through the official application page.
+Firmware source code, hardware design files, PCB files, BOM, and production materials are not public by default. If you need them for learning, debugging, research, or collaboration, you can submit a request through the **AhaKey Hardware Source Access Program**.
 
 > **AhaKey respects users' local control over their own devices.**  
 > We will not intentionally use remote authentication, cloud lock-in, or firmware updates to break reasonable local development or third-party clients built on published protocols.
@@ -476,7 +445,7 @@ Firmware source code, hardware design files, PCB files, BOM, and production mate
 | Submit your own project / tutorial / workflow | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | Submit your project and let more people see it |
 | Report a bug | [`Issues`](https://github.com/AhakeyAI/desktop/issues) | Submit a clear issue with reproduction steps, logs, or screenshots |
 | Start a discussion | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | Share ideas, questions, use cases, or collaboration topics |
-| Request firmware source / hardware materials | [`Permission`](https://ahakey.com/cn/hardware-source/apply) | Firmware source and hardware files are not public by default |
+| Join deeper hardware / firmware collaboration | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source/apply) | If the public protocol and examples are not enough, tell us what you want to build or study |
 
 ---
 
@@ -544,38 +513,6 @@ Need help → SUPPORT
 Security issue → SECURITY
 Community behavior → CODE_OF_CONDUCT
 ```
-
----
-
-## What is open by default?
-
-### Open by default
-
-- Official desktop client source code
-- AhaKey BLE protocol documentation
-- Client development examples
-- Community tools, scripts, workflows, and tutorial showcase entry points
-
-### Not open by default
-
-- Firmware source code
-- Hardware schematics / PCB / production materials
-- Internal implementation details of official devices
-- Hardware materials that can be used for cloning, manufacturing, or commercial resale
-
-> If you only want to build your own client, script, or workflow, you usually **do not need firmware source code**. Please start with [`protocol`](https://github.com/AhakeyAI/protocol).
-
----
-
-## Local-first and third-party clients
-
-AhaKey encourages users to build their own clients, scripts, tools, and workflows based on the public BLE protocol.
-
-We try to keep the public protocol stable and understandable, and we support secondary development through documentation, example code, and community projects.
-
-> **We will not intentionally use remote authentication, cloud lock-in, or firmware updates to break reasonable local development or third-party clients built on published protocols.**
-
-If the protocol needs to change in the future, we will try to communicate the changes through documentation, version notes, and community discussions.
 
 ---
 
@@ -782,13 +719,14 @@ Please try to keep contributions:
 
 ---
 
-## About firmware source / hardware materials
+## Hardware Source Access Program
 
-Firmware source code, hardware design files, and production materials are **not publicly released by default**.
+If the public protocol, client examples, and community documentation are not enough for your project, for example if you are doing firmware-level debugging, low-level behavior research, tutorial co-creation, or deeper hardware / firmware contributions, you can submit a short request here:
 
-If your project really requires access, please submit a [`Permission`](https://ahakey.com/cn/hardware-source/apply).
+[`AhaKey Hardware Source Access Program`](https://ahakey.com/cn/hardware-source/apply)
 
-Without authorization, controlled materials may not be used for board reproduction, cloning, manufacturing, resale, or development of competing hardware products.
+This program is intended for real learning, research, debugging, and community collaboration needs.  
+Firmware source code, hardware design files, PCB files, BOM, and production materials are not public by default. Without authorization, controlled materials may not be used for board reproduction, cloning, manufacturing, resale, or development of competing hardware products.
 
 ---
 
@@ -798,7 +736,7 @@ If you want to learn about AhaKey, download software, buy the device, join discu
 
 | Entry | Link | Best for |
 |---|---|---|
-| Website | [ahakey.com](https://ahakey.com) | Product information, downloads, community info, hardware source request |
+| Website | [ahakey.com](https://ahakey.com) | Product information, downloads, community info, hardware source access program |
 | GitHub | [AhakeyAI](https://github.com/AhakeyAI) | Source code, protocol docs, Issues, PRs, community projects |
 | Discord | [AhaKey Discord](https://discord.gg/Nn48cJXa) | International community, developer discussions, quick feedback |
 | X / Twitter | [@zhngxnyng199073](https://x.com/zhngxnyng199073) | Product updates, development notes, international posts |
