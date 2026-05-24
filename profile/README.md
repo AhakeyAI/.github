@@ -57,68 +57,6 @@ AhaKey 采用 **“开源软件 + 开放协议 + 社区共创 + 受控硬件资�
 
 ---
 
-## 官方入口与社群
-
-如果你想了解 AhaKey、下载软件、购买设备、加入讨论或联系官方，可以从下面这些入口开始。
-
-| 入口 | 链接 | 适合做什么 |
-|---|---|---|
-| 官网 | [ahakey.com](https://ahakey.com) | 产品介绍、下载入口、社区说明、硬件源码申请 |
-| GitHub | [AhakeyAI](https://github.com/AhakeyAI) | 开源代码、协议文档、Issue、PR、社区项目 |
-| Discord | [AhaKey Discord](https://discord.gg/Nn48cJXa) | 海外用户交流、开发者讨论、快速反馈 |
-| X / Twitter | [@zhngxnyng199073](https://x.com/zhngxnyng199073) | 海外动态、产品更新、开发者内容 |
-| 哔哩哔哩 | [AhaKey Bilibili](https://space.bilibili.com/2001376117?spm_id_from=333.1007.0.0) | 视频教程、产品演示、开发过程记录 |
-| 淘宝店 | [AhaKey 淘宝店](https://shop277996828.taobao.com/?spm=pc_detail.30350276.shop_block.dshopinfo.5ad17dd6tWyean) | 购买设备、订单相关问题 |
-| 官方邮箱 | [zhangxinyang@ahakey.cn](mailto:zhangxinyang@ahakey.cn) | 合作、反馈、社区问题、重要问题联系 |
-
-### 问题该去哪里？
-
-| 你遇到的问题 | 推荐入口 |
-|---|---|
-| 官方客户端 bug、安装失败、连接异常 | GitHub Issues |
-| 协议开发、第三方客户端、workflow 想法 | GitHub Discussions |
-| 想展示自己的二创项目、教程、脚本 | awesome-ahakey |
-| 购买、发货、售后、设备使用问题 | 淘宝店 / 企业微信客服 |
-| 中文用户日常交流 | 微信群 / QQ 群 / 小红书群 |
-| 海外用户交流 | Discord / X |
-| 安全问题、密钥泄露、受控资料泄露 | 请勿公开发 Issue，联系官方邮箱 |
-
-<details>
-<summary><strong>扫码加入中文社群 / 联系客服</strong></summary>
-
-<br>
-
-<div align="center">
-
-<table>
-  <tr>
-    <th>微信公众号</th>
-    <th>微信讨论群</th>
-    <th>QQ 讨论群</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="./assets/qr/wechat-official-account.png" width="150"><br>关注公众号</td>
-    <td align="center"><img src="./assets/qr/wechat-group.png" width="150"><br>加入微信讨论群</td>
-    <td align="center"><img src="./assets/qr/qq-group.png" width="150"><br>加入 QQ 讨论群</td>
-  </tr>
-  <tr>
-    <th>小红书群</th>
-    <th>企业微信客服</th>
-    <th>更多入口</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="./assets/qr/xhs-group.png" width="150"><br>加入小红书群</td>
-    <td align="center"><img src="./assets/qr/wecom-support.png" width="150"><br>联系专人客服</td>
-    <td align="center"><a href="https://ahakey.com">ahakey.com</a><br>官网与下载入口</td>
-  </tr>
-</table>
-
-</div>
-
-</details>
-
----
-
 ## 仓库说明
 
 <div align="center">
@@ -428,6 +366,66 @@ AhaKey 鼓励用户基于公开 BLE 协议开发自己的客户端、脚本、�
 
 ---
 
+## 官方入口、问题反馈与社群
+
+如果你想了解 AhaKey、下载软件、购买设备、加入讨论或联系官方，可以从下面这些入口开始。
+
+| 入口 | 链接 | 适合做什么 |
+|---|---|---|
+| 官网 | [ahakey.com](https://ahakey.com) | 产品介绍、下载入口、社区说明、硬件源码申请 |
+| GitHub | [AhakeyAI](https://github.com/AhakeyAI) | 开源代码、协议文档、Issue、PR、社区项目 |
+| Discord | [AhaKey Discord](https://discord.gg/Nn48cJXa) | 海外用户交流、开发者讨论、快速反馈 |
+| X / Twitter | [@zhngxnyng199073](https://x.com/zhngxnyng199073) | 海外动态、产品更新、开发者内容 |
+| 哔哩哔哩 | [AhaKey Bilibili](https://space.bilibili.com/2001376117?spm_id_from=333.1007.0.0) | 视频教程、产品演示、开发过程记录 |
+| 淘宝店 | [AhaKey 淘宝店](https://shop277996828.taobao.com/?spm=pc_detail.30350276.shop_block.dshopinfo.5ad17dd6tWyean) | 购买设备、订单相关问题 |
+| 官方邮箱 | [zhangxinyang@ahakey.cn](mailto:zhangxinyang@ahakey.cn) | 合作、反馈、社区问题、重要问题联系 |
+
+### 问题该去哪里？
+
+| 你遇到的问题 | 推荐入口 |
+|---|---|
+| 官方客户端 bug、安装失败、连接异常 | GitHub Issues |
+| 协议开发、第三方客户端、workflow 想法 | GitHub Discussions |
+| 想展示自己的二创项目、教程、脚本 | awesome-ahakey |
+| 购买、发货、售后、设备使用问题 | 淘宝店 / 企业微信客服 |
+| 中文用户日常交流 | 微信群 / QQ 群 / 小红书群 |
+| 海外用户交流 | Discord / X |
+| 安全问题、密钥泄露、受控资料泄露 | 请勿公开发 Issue，联系官方邮箱 |
+
+<details>
+<summary><strong>扫码加入中文社群 / 联系客服</strong></summary>
+
+<br>
+
+<div align="center">
+
+<table>
+  <tr>
+    <th>微信公众号</th>
+    <th>微信讨论群</th>
+    <th>QQ 讨论群</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/qr/wechat-official-account.png" width="150"><br>关注公众号</td>
+    <td align="center"><img src="./assets/qr/wechat-group.png" width="150"><br>加入微信讨论群</td>
+    <td align="center"><img src="./assets/qr/qq-group.png" width="150"><br>加入 QQ 讨论群</td>
+  </tr>
+  <tr>
+    <th>小红书群</th>
+    <th>企业微信客服</th>
+    <th>更多入口</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/qr/xhs-group.png" width="150"><br>加入小红书群</td>
+    <td align="center"><img src="./assets/qr/wecom-support.png" width="150"><br>联系专人客服</td>
+    <td align="center"><a href="https://ahakey.com">ahakey.com</a><br>官网与下载入口</td>
+  </tr>
+</table>
+
+</div>
+
+</details>
+
 <p align="right"><a href="#top">↑ Back to top</a></p>
 
 ---
@@ -479,68 +477,6 @@ Firmware source code, hardware design files, PCB files, BOM, and production mate
 | Report a bug | [`Issues`](https://github.com/AhakeyAI/desktop/issues) | Submit a clear issue with reproduction steps, logs, or screenshots |
 | Start a discussion | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | Share ideas, questions, use cases, or collaboration topics |
 | Request firmware source / hardware materials | [`Permission`](https://ahakey.com/cn/hardware-source/apply) | Firmware source and hardware files are not public by default |
-
----
-
-## Official links and community
-
-If you want to learn about AhaKey, download software, buy the device, join discussions, or contact the team, start here.
-
-| Entry | Link | Best for |
-|---|---|---|
-| Website | [ahakey.com](https://ahakey.com) | Product information, downloads, community info, hardware source request |
-| GitHub | [AhakeyAI](https://github.com/AhakeyAI) | Source code, protocol docs, Issues, PRs, community projects |
-| Discord | [AhaKey Discord](https://discord.gg/Nn48cJXa) | International community, developer discussions, quick feedback |
-| X / Twitter | [@zhngxnyng199073](https://x.com/zhngxnyng199073) | Product updates, development notes, international posts |
-| Bilibili | [AhaKey Bilibili](https://space.bilibili.com/2001376117?spm_id_from=333.1007.0.0) | Videos, tutorials, product demos, development logs |
-| Taobao Store | [AhaKey Taobao Store](https://shop277996828.taobao.com/?spm=pc_detail.30350276.shop_block.dshopinfo.5ad17dd6tWyean) | Purchase, orders, device-related questions |
-| Email | [zhangxinyang@ahakey.cn](mailto:zhangxinyang@ahakey.cn) | Collaboration, feedback, community issues, important contact |
-
-### Where should I ask?
-
-| What you need | Recommended place |
-|---|---|
-| Official client bugs, installation failures, connection issues | GitHub Issues |
-| Protocol development, third-party clients, workflow ideas | GitHub Discussions |
-| Sharing your own remix, tutorial, script, or workflow | awesome-ahakey |
-| Purchase, shipping, after-sales, device usage | Taobao / WeCom support |
-| Chinese community discussion | WeChat / QQ / Xiaohongshu groups |
-| International community discussion | Discord / X |
-| Security issues, leaked secrets, controlled material leaks | Do not open a public Issue; contact the official email |
-
-<details>
-<summary><strong>Chinese community QR codes / support contact</strong></summary>
-
-<br>
-
-<div align="center">
-
-<table>
-  <tr>
-    <th>WeChat Official Account</th>
-    <th>WeChat Group</th>
-    <th>QQ Group</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="./assets/qr/wechat-official-account.png" width="150"><br>Follow us</td>
-    <td align="center"><img src="./assets/qr/wechat-group.png" width="150"><br>Join WeChat group</td>
-    <td align="center"><img src="./assets/qr/qq-group.png" width="150"><br>Join QQ group</td>
-  </tr>
-  <tr>
-    <th>Xiaohongshu Group</th>
-    <th>WeCom Support</th>
-    <th>More</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="./assets/qr/xhs-group.png" width="150"><br>Join Xiaohongshu group</td>
-    <td align="center"><img src="./assets/qr/wecom-support.png" width="150"><br>Contact support</td>
-    <td align="center"><a href="https://ahakey.com">ahakey.com</a><br>Website and downloads</td>
-  </tr>
-</table>
-
-</div>
-
-</details>
 
 ---
 
@@ -855,5 +791,65 @@ If your project really requires access, please submit a [`Permission`](https://a
 Without authorization, controlled materials may not be used for board reproduction, cloning, manufacturing, resale, or development of competing hardware products.
 
 ---
+
+## Official links, feedback, and support
+
+If you want to learn about AhaKey, download software, buy the device, join discussions, or contact the team, start here.
+
+| Entry | Link | Best for |
+|---|---|---|
+| Website | [ahakey.com](https://ahakey.com) | Product information, downloads, community info, hardware source request |
+| GitHub | [AhakeyAI](https://github.com/AhakeyAI) | Source code, protocol docs, Issues, PRs, community projects |
+| Discord | [AhaKey Discord](https://discord.gg/Nn48cJXa) | International community, developer discussions, quick feedback |
+| X / Twitter | [@zhngxnyng199073](https://x.com/zhngxnyng199073) | Product updates, development notes, international posts |
+| Bilibili | [AhaKey Bilibili](https://space.bilibili.com/2001376117?spm_id_from=333.1007.0.0) | Videos, tutorials, product demos, development logs |
+| Taobao Store | [AhaKey Taobao Store](https://shop277996828.taobao.com/?spm=pc_detail.30350276.shop_block.dshopinfo.5ad17dd6tWyean) | Purchase, orders, device-related questions |
+| Email | [zhangxinyang@ahakey.cn](mailto:zhangxinyang@ahakey.cn) | Collaboration, feedback, community issues, important contact |
+
+### Where should I ask?
+
+| What you need | Recommended place |
+|---|---|
+| Official client bugs, installation failures, connection issues | GitHub Issues |
+| Protocol development, third-party clients, workflow ideas | GitHub Discussions |
+| Sharing your own remix, tutorial, script, or workflow | awesome-ahakey |
+| Purchase, shipping, after-sales, device usage | Taobao / WeCom support |
+| Chinese community discussion | WeChat / QQ / Xiaohongshu groups |
+| International community discussion | Discord / X |
+| Security issues, leaked secrets, controlled material leaks | Do not open a public Issue; contact the official email |
+
+<details>
+<summary><strong>Chinese community QR codes / support contact</strong></summary>
+
+<br>
+
+<div align="center">
+
+<table>
+  <tr>
+    <th>WeChat Official Account</th>
+    <th>WeChat Group</th>
+    <th>QQ Group</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/qr/wechat-official-account.png" width="150"><br>Follow us</td>
+    <td align="center"><img src="./assets/qr/wechat-group.png" width="150"><br>Join WeChat group</td>
+    <td align="center"><img src="./assets/qr/qq-group.png" width="150"><br>Join QQ group</td>
+  </tr>
+  <tr>
+    <th>Xiaohongshu Group</th>
+    <th>WeCom Support</th>
+    <th>More</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/qr/xhs-group.png" width="150"><br>Join Xiaohongshu group</td>
+    <td align="center"><img src="./assets/qr/wecom-support.png" width="150"><br>Contact support</td>
+    <td align="center"><a href="https://ahakey.com">ahakey.com</a><br>Website and downloads</td>
+  </tr>
+</table>
+
+</div>
+
+</details>
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
