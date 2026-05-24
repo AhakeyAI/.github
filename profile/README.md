@@ -29,6 +29,19 @@
 
 ---
 
+## AhaKey 的开放共创机制
+
+AhaKey 采用 **“开源软件 + 开放协议 + 社区共创 + 受控硬件资料”** 的分层开放机制。
+
+我们默认开放官方桌面客户端源码、BLE 协议文档、客户端开发示例和社区项目展示入口，鼓励用户基于公开协议开发自己的客户端、脚本、工具和 AI workflow。
+
+固件源码、硬件设计文件、PCB、BOM 和生产资料不默认公开。如确有学习、调试、研究或共创需要，可以通过官方申请入口提交申请。
+
+> **AhaKey 尊重用户对自己设备的本地控制权。**  
+> 我们不会故意通过远程认证、云端锁定或固件更新，破坏已公开协议下的合理本地开发和第三方客户端使用。
+
+---
+
 ## 你来到这里，通常是想做这几件事
 
 | 你想做什么 | 去哪里 | 说明 |
@@ -41,6 +54,68 @@
 | 我发现了 bug | [`Issues`](https://github.com/AhakeyAI/desktop/issues) | 提交明确问题、复现步骤、日志或截图 |
 | 我有一个想法，想先讨论 | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | 发起问题、想法、玩法、共创讨论 |
 | 我想申请固件源码 / 硬件资料 | [`Permission`](https://ahakey.com/cn/hardware-source/apply) | 固件源码、硬件设计文件、生产资料不默认公开，需要单独申请 |
+
+---
+
+## 官方入口与社群
+
+如果你想了解 AhaKey、下载软件、购买设备、加入讨论或联系官方，可以从下面这些入口开始。
+
+| 入口 | 链接 | 适合做什么 |
+|---|---|---|
+| 官网 | [ahakey.com](https://ahakey.com) | 产品介绍、下载入口、社区说明、硬件源码申请 |
+| GitHub | [AhakeyAI](https://github.com/AhakeyAI) | 开源代码、协议文档、Issue、PR、社区项目 |
+| Discord | [AhaKey Discord](https://discord.gg/Nn48cJXa) | 海外用户交流、开发者讨论、快速反馈 |
+| X / Twitter | [@zhngxnyng199073](https://x.com/zhngxnyng199073) | 海外动态、产品更新、开发者内容 |
+| 哔哩哔哩 | [AhaKey Bilibili](https://space.bilibili.com/2001376117?spm_id_from=333.1007.0.0) | 视频教程、产品演示、开发过程记录 |
+| 淘宝店 | [AhaKey 淘宝店](https://shop277996828.taobao.com/?spm=pc_detail.30350276.shop_block.dshopinfo.5ad17dd6tWyean) | 购买设备、订单相关问题 |
+| 官方邮箱 | [zhangxinyang@ahakey.cn](mailto:zhangxinyang@ahakey.cn) | 合作、反馈、社区问题、重要问题联系 |
+
+### 问题该去哪里？
+
+| 你遇到的问题 | 推荐入口 |
+|---|---|
+| 官方客户端 bug、安装失败、连接异常 | GitHub Issues |
+| 协议开发、第三方客户端、workflow 想法 | GitHub Discussions |
+| 想展示自己的二创项目、教程、脚本 | awesome-ahakey |
+| 购买、发货、售后、设备使用问题 | 淘宝店 / 企业微信客服 |
+| 中文用户日常交流 | 微信群 / QQ 群 / 小红书群 |
+| 海外用户交流 | Discord / X |
+| 安全问题、密钥泄露、受控资料泄露 | 请勿公开发 Issue，联系官方邮箱 |
+
+<details>
+<summary><strong>扫码加入中文社群 / 联系客服</strong></summary>
+
+<br>
+
+<div align="center">
+
+<table>
+  <tr>
+    <th>微信公众号</th>
+    <th>微信讨论群</th>
+    <th>QQ 讨论群</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/qr/wechat-official-account.png" width="150"><br>关注公众号</td>
+    <td align="center"><img src="./assets/qr/wechat-group.png" width="150"><br>加入微信讨论群</td>
+    <td align="center"><img src="./assets/qr/qq-group.png" width="150"><br>加入 QQ 讨论群</td>
+  </tr>
+  <tr>
+    <th>小红书群</th>
+    <th>企业微信客服</th>
+    <th>更多入口</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/qr/xhs-group.png" width="150"><br>加入小红书群</td>
+    <td align="center"><img src="./assets/qr/wecom-support.png" width="150"><br>联系专人客服</td>
+    <td align="center"><a href="https://ahakey.com">ahakey.com</a><br>官网与下载入口</td>
+  </tr>
+</table>
+
+</div>
+
+</details>
 
 ---
 
@@ -100,12 +175,10 @@
 简单理解：
 
 ```text
-
 想贡献 → CONTRIBUTING
 遇到问题 → SUPPORT
 安全问题 → SECURITY
 社区行为规范 → CODE_OF_CONDUCT
-
 ```
 
 ---
@@ -127,6 +200,18 @@
 - 可用于仿制、量产、商业销售的硬件资料
 
 > 如果你只是想做自己的客户端、脚本或 workflow，通常**不需要固件源码**，请先阅读 [`protocol`](https://github.com/AhakeyAI/protocol)。
+
+---
+
+## 本地优先与第三方客户端
+
+AhaKey 鼓励用户基于公开 BLE 协议开发自己的客户端、脚本、工具和 workflow。
+
+我们会尽量保持公开协议的稳定性和可理解性，并通过文档、示例代码和社区项目帮助开发者进行二次开发。
+
+> **我们不会故意通过远程认证、云端锁定或固件更新，破坏已公开协议下的合理本地开发和第三方客户端使用。**
+
+如果协议未来需要调整，我们会尽量通过文档、版本说明和社区讨论提前说明变化。
 
 ---
 
@@ -337,7 +422,8 @@
 
 固件源码、硬件设计文件和生产资料**不默认公开**。
 
-如果你的项目确实需要访问这些资料，请先提交 [`Permission`](https://ahakey.com/cn/hardware-source/apply)，并说明：
+如果你的项目确实需要访问这些资料，请先提交 [`Permission`](https://ahakey.com/cn/hardware-source/apply)。
+
 未经授权，不得使用受控资料自行打板、仿制、量产、销售或开发竞争性硬件产品。
 
 ---
@@ -368,6 +454,19 @@
 
 ---
 
+## AhaKey open collaboration model
+
+AhaKey follows a layered openness model: **open-source software + open protocol + community collaboration + controlled hardware materials**.
+
+We open the official desktop client source code, BLE protocol documentation, client development examples, and community project showcase entry points by default. We encourage developers to build their own clients, scripts, tools, and AI workflows based on the public protocol.
+
+Firmware source code, hardware design files, PCB files, BOM, and production materials are not public by default. If you need them for learning, debugging, research, or collaboration, you can submit a request through the official application page.
+
+> **AhaKey respects users' local control over their own devices.**  
+> We will not intentionally use remote authentication, cloud lock-in, or firmware updates to break reasonable local development or third-party clients built on published protocols.
+
+---
+
 ## Start Here
 
 | What do you want to do? | Where to go | Notes |
@@ -380,6 +479,68 @@
 | Report a bug | [`Issues`](https://github.com/AhakeyAI/desktop/issues) | Submit a clear issue with reproduction steps, logs, or screenshots |
 | Start a discussion | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | Share ideas, questions, use cases, or collaboration topics |
 | Request firmware source / hardware materials | [`Permission`](https://ahakey.com/cn/hardware-source/apply) | Firmware source and hardware files are not public by default |
+
+---
+
+## Official links and community
+
+If you want to learn about AhaKey, download software, buy the device, join discussions, or contact the team, start here.
+
+| Entry | Link | Best for |
+|---|---|---|
+| Website | [ahakey.com](https://ahakey.com) | Product information, downloads, community info, hardware source request |
+| GitHub | [AhakeyAI](https://github.com/AhakeyAI) | Source code, protocol docs, Issues, PRs, community projects |
+| Discord | [AhaKey Discord](https://discord.gg/Nn48cJXa) | International community, developer discussions, quick feedback |
+| X / Twitter | [@zhngxnyng199073](https://x.com/zhngxnyng199073) | Product updates, development notes, international posts |
+| Bilibili | [AhaKey Bilibili](https://space.bilibili.com/2001376117?spm_id_from=333.1007.0.0) | Videos, tutorials, product demos, development logs |
+| Taobao Store | [AhaKey Taobao Store](https://shop277996828.taobao.com/?spm=pc_detail.30350276.shop_block.dshopinfo.5ad17dd6tWyean) | Purchase, orders, device-related questions |
+| Email | [zhangxinyang@ahakey.cn](mailto:zhangxinyang@ahakey.cn) | Collaboration, feedback, community issues, important contact |
+
+### Where should I ask?
+
+| What you need | Recommended place |
+|---|---|
+| Official client bugs, installation failures, connection issues | GitHub Issues |
+| Protocol development, third-party clients, workflow ideas | GitHub Discussions |
+| Sharing your own remix, tutorial, script, or workflow | awesome-ahakey |
+| Purchase, shipping, after-sales, device usage | Taobao / WeCom support |
+| Chinese community discussion | WeChat / QQ / Xiaohongshu groups |
+| International community discussion | Discord / X |
+| Security issues, leaked secrets, controlled material leaks | Do not open a public Issue; contact the official email |
+
+<details>
+<summary><strong>Chinese community QR codes / support contact</strong></summary>
+
+<br>
+
+<div align="center">
+
+<table>
+  <tr>
+    <th>WeChat Official Account</th>
+    <th>WeChat Group</th>
+    <th>QQ Group</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/qr/wechat-official-account.png" width="150"><br>Follow us</td>
+    <td align="center"><img src="./assets/qr/wechat-group.png" width="150"><br>Join WeChat group</td>
+    <td align="center"><img src="./assets/qr/qq-group.png" width="150"><br>Join QQ group</td>
+  </tr>
+  <tr>
+    <th>Xiaohongshu Group</th>
+    <th>WeCom Support</th>
+    <th>More</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./assets/qr/xhs-group.png" width="150"><br>Join Xiaohongshu group</td>
+    <td align="center"><img src="./assets/qr/wecom-support.png" width="150"><br>Contact support</td>
+    <td align="center"><a href="https://ahakey.com">ahakey.com</a><br>Website and downloads</td>
+  </tr>
+</table>
+
+</div>
+
+</details>
 
 ---
 
@@ -422,8 +583,6 @@
 
 </div>
 
-
-
 ---
 
 ## Community maintenance files
@@ -451,6 +610,7 @@ Community behavior → CODE_OF_CONDUCT
 ```
 
 ---
+
 ## What is open by default?
 
 ### Open by default
@@ -468,6 +628,18 @@ Community behavior → CODE_OF_CONDUCT
 - Hardware materials that can be used for cloning, manufacturing, or commercial resale
 
 > If you only want to build your own client, script, or workflow, you usually **do not need firmware source code**. Please start with [`protocol`](https://github.com/AhakeyAI/protocol).
+
+---
+
+## Local-first and third-party clients
+
+AhaKey encourages users to build their own clients, scripts, tools, and workflows based on the public BLE protocol.
+
+We try to keep the public protocol stable and understandable, and we support secondary development through documentation, example code, and community projects.
+
+> **We will not intentionally use remote authentication, cloud lock-in, or firmware updates to break reasonable local development or third-party clients built on published protocols.**
+
+If the protocol needs to change in the future, we will try to communicate the changes through documentation, version notes, and community discussions.
 
 ---
 
@@ -678,16 +850,10 @@ Please try to keep contributions:
 
 Firmware source code, hardware design files, and production materials are **not publicly released by default**.
 
-If your project really requires access, please submit a [`Permission`](https://ahakey.com/cn/hardware-source/apply) and explain:
+If your project really requires access, please submit a [`Permission`](https://ahakey.com/cn/hardware-source/apply).
 
 Without authorization, controlled materials may not be used for board reproduction, cloning, manufacturing, resale, or development of competing hardware products.
 
 ---
-
-## One-line principle
-
-> Official versions prioritize stability.  
-> Community versions encourage exploration.  
-> Not every DIY idea needs to merge into the official product, but high-quality AhaKey tools, workflows, and ideas deserve to be seen.
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
