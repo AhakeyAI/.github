@@ -58,7 +58,7 @@ AhaKey 采用 **“开源客户端 + 开放协议 + Awesome AhaKey 社区共创 
 - Awesome AhaKey / 社区项目展示入口
 - 第三方客户端、脚本、workflow、教程共创入口
 
-第三方客户端、脚本、workflow、教程、非敏感硬件二创等，默认提交到 **Awesome AhaKey**；硬件 / 固件相关反馈、patch、proposal 和实验记录，才提交到受控硬件贡献仓库。
+第三方客户端、脚本、workflow、教程、非敏感硬件二创等，默认提交到 **Awesome AhaKey**；硬件 / 固件相关反馈、patch、proposal 和实验记录，走受控硬件源码访问计划。
 
 PCB layout、Gerber、BOM、生产测试资料等更完整硬件资料不默认通过仓库开放，如确有需要请联系企业微信专人客服进一步沟通。
 
@@ -86,8 +86,7 @@ PCB layout、Gerber、BOM、生产测试资料等更完整硬件资料不默认�
 | 发现官方客户端 bug | [`desktop/issues`](https://github.com/AhakeyAI/desktop/issues) | 提交明确问题、复现步骤、日志或截图 |
 | 有想法想先讨论 | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | 发起问题、想法、玩法、共创讨论 |
 | 需要查看官方硬件 / 固件基线源码 | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source/apply) | 先提交表单，通过后按 GitHub 用户名加入私有仓库 |
-| 已获授权，想查看官方固件基线 | [`AhaKey-X1-hardware-source`](https://github.com/AhakeyAI/AhaKey-X1-hardware-source) | 受控私有仓库，用于查看官方基线、Release、烧录说明 |
-| 已获授权，想提交硬件 / 固件 patch、proposal、实验记录 | [`AhaKey-X1-hardware-contributions`](https://github.com/AhakeyAI/AhaKey-X1-hardware-contributions) | 只接收硬件 / 固件相关反馈，不接收普通客户端和 workflow |
+| 已获授权，想提交硬件 / 固件 patch、proposal、实验记录 | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source/apply) | 仅限硬件 / 固件相关内容，不接收普通客户端和 workflow |
 | 需要 PCB layout / BOM / Gerber / 生产测试资料 | 企业微信专人客服 | 不默认通过仓库开放，需要单独沟通评估 |
 
 > 提交 Hardware Source Access Program 表单时，请真实填写 GitHub 用户名。  
@@ -121,16 +120,6 @@ PCB layout、Gerber、BOM、生产测试资料等更完整硬件资料不默认�
     <td>想看二创、Fork 别人项目、提交自己作品的人</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/AhakeyAI/AhaKey-X1-hardware-source"><strong>AhaKey-X1-hardware-source</strong></a></td>
-    <td>官方硬件 / 固件基线源码仓库</td>
-    <td>已获授权、想查看官方固件源码、官方 Release、烧录说明的人</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/AhakeyAI/AhaKey-X1-hardware-contributions"><strong>AhaKey-X1-hardware-contributions</strong></a></td>
-    <td>硬件 / 固件用户贡献暂存仓库</td>
-    <td>已获授权、想提交硬件 / 固件 patch、proposal、实验记录的人</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/AhakeyAI/.github"><strong>.github</strong></a></td>
     <td>组织级贡献规则、Issue / PR 模板、社区支持信息</td>
     <td>准备提交 Issue、PR 或参与社区协作的人</td>
@@ -139,12 +128,9 @@ PCB layout、Gerber、BOM、生产测试资料等更完整硬件资料不默认�
 
 </div>
 
-> `AhaKey-X1-hardware-source` 和 `AhaKey-X1-hardware-contributions` 是受控私有仓库。  
-> 如果你没有访问权限，打开时可能会看到 404 或无权限提示，这是正常的。请先通过硬件源码访问计划提交说明。
-
 ---
 
-## 社区贡献和硬件贡献怎么分？
+## 社区贡献怎么分？
 
 | 类型 | 默认去哪里 | 说明 |
 |---|---|---|
@@ -152,32 +138,8 @@ PCB layout、Gerber、BOM、生产测试资料等更完整硬件资料不默认�
 | BLE 协议文档 / examples | [`protocol`](https://github.com/AhakeyAI/protocol) | 协议和开发示例走公开仓库 |
 | 第三方客户端 / 脚本 / workflow / 教程 | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 社区项目、教程和 workflow 默认提交到这里 |
 | 外壳、键帽、支架、桌面 setup 等非敏感二创 | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 可展示成果，不提交生产级硬件资料 |
-| 官方固件 bug / 固件 patch / 烧录文档补充 | [`AhaKey-X1-hardware-contributions`](https://github.com/AhakeyAI/AhaKey-X1-hardware-contributions) | 仅限已获授权用户 |
-| 硬件 proposal / 原理图反馈 / 底层调试记录 | [`AhaKey-X1-hardware-contributions`](https://github.com/AhakeyAI/AhaKey-X1-hardware-contributions) | 仅限硬件 / 固件相关内容 |
+| 硬件 / 固件相关反馈、patch、proposal | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source/apply) | 先提交表单，通过后进入受控协作流程 |
 | PCB layout / Gerber / BOM / 生产测试资料 | 企业微信专人客服 | 不默认通过仓库提供 |
-
-### 硬件 / 固件贡献必须新建分支
-
-如果你已经获得 `AhaKey-X1-hardware-contributions` 访问权限，无论提交 bug fix、文档、proposal、实验记录，还是硬件反馈，都请**新建分支**提交。
-
-请不要直接提交到：
-
-```text
-main
-master
-```
-
-推荐分支命名：
-
-```text
-fix/<github-id>-short-description
-docs/<github-id>-short-description
-experiment/<github-id>-short-description
-proposal/<github-id>-short-description
-hardware/<github-id>-short-description
-```
-
-这样可以清晰保留贡献者的 GitHub 身份和提交记录，也方便 AhaKey 团队 review、讨论和后续鸣谢。
 
 ---
 
@@ -275,7 +237,7 @@ hardware/<github-id>-short-description
 → 通过后邀请你的 GitHub 账号进入对应私有仓库
 → 查看官方基线源码
 → 本地学习、编译、调试和实验
-→ 在贡献仓库中新建分支提交硬件 / 固件反馈或 patch
+→ 按协作流程提交硬件 / 固件反馈或 patch
 → AhaKey 团队 review
 ```
 
@@ -291,7 +253,7 @@ hardware/<github-id>-short-description
 | Discussion | 开放讨论和想法孵化 | 玩法讨论、共创想法、不确定的问题、高关注度话题 |
 | Pull Request | 提交具体改动 | 代码修改、文档修改、bug fix、功能实现 |
 | awesome-ahakey | 社区作品展示 | 独立项目、第三方客户端、脚本、教程、workflow、二创展示 |
-| hardware-contributions | 受控硬件 / 固件贡献暂存 | 固件 patch、实验记录、硬件 proposal、烧录文档补充 |
+| Hardware Source Access Program | 受控硬件 / 固件共创入口 | 固件 patch、实验记录、硬件 proposal、底层调试 |
 
 简单理解：
 
@@ -341,7 +303,7 @@ hardware/<github-id>-short-description
 - 有截图 / 日志 / demo 更好
 - 不提交密钥、token、私人文件
 - 大功能先 Discussion，再 PR
-- 硬件 / 固件贡献进入贡献仓库时，必须新建分支，不直接提交 main / master
+- 硬件 / 固件相关内容，先走 Hardware Source Access Program
 
 ---
 
@@ -366,7 +328,7 @@ hardware/<github-id>-short-description
 | 官方客户端 bug、安装失败、连接异常 | GitHub Issues |
 | 协议开发、第三方客户端、workflow 想法 | GitHub Discussions |
 | 想展示自己的二创项目、教程、脚本 | awesome-ahakey |
-| 想提交固件 patch、实验记录、硬件 proposal | AhaKey-X1-hardware-contributions |
+| 想提交固件 patch、实验记录、硬件 proposal | Hardware Source Access Program |
 | 需要查看官方固件基线源码 | Hardware Source Access Program |
 | 需要 PCB layout、BOM、Gerber、生产测试资料 | 企业微信专人客服 |
 | 购买、发货、售后、设备使用问题 | 淘宝店 / 企业微信客服 |
@@ -485,8 +447,7 @@ PCB layout, Gerber, BOM, production test materials, and other complete hardware 
 | Report a desktop client bug | [`desktop/issues`](https://github.com/AhakeyAI/desktop/issues) | Submit clear reproduction steps, logs, or screenshots |
 | Start a discussion | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions) | Share ideas, questions, use cases, or collaboration topics |
 | Need official hardware / firmware baseline source | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source/apply) | Submit a form first; approved users may be added to private repositories by GitHub username |
-| Authorized and want to read the official baseline | [`AhaKey-X1-hardware-source`](https://github.com/AhakeyAI/AhaKey-X1-hardware-source) | Controlled private repo for official baseline, Release, and flashing notes |
-| Authorized and want to submit hardware / firmware patches, proposals, or experiments | [`AhaKey-X1-hardware-contributions`](https://github.com/AhakeyAI/AhaKey-X1-hardware-contributions) | Hardware / firmware only; not for general client or workflow submissions |
+| Authorized and want to submit hardware / firmware patches, proposals, or experiments | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source/apply) | Hardware / firmware only; not for general client or workflow submissions |
 | Need PCB layout / BOM / Gerber / production test materials | WeCom support | Not provided through repositories by default; evaluated separately |
 
 > Please provide your real GitHub username when submitting the Hardware Source Access Program form.  
@@ -520,16 +481,6 @@ PCB layout, Gerber, BOM, production test materials, and other complete hardware 
     <td>People browsing community projects or submitting their own work</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/AhakeyAI/AhaKey-X1-hardware-source"><strong>AhaKey-X1-hardware-source</strong></a></td>
-    <td>Official hardware / firmware baseline source repository</td>
-    <td>Authorized users who want to read official firmware source, official Releases, and flashing notes</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/AhakeyAI/AhaKey-X1-hardware-contributions"><strong>AhaKey-X1-hardware-contributions</strong></a></td>
-    <td>Hardware / firmware contribution staging repository</td>
-    <td>Authorized users submitting hardware / firmware patches, proposals, and experiments</td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/AhakeyAI/.github"><strong>.github</strong></a></td>
     <td>Shared contribution rules, Issue / PR templates, and support information</td>
     <td>Contributors preparing to submit Issues, PRs, or community contributions</td>
@@ -538,12 +489,9 @@ PCB layout, Gerber, BOM, production test materials, and other complete hardware 
 
 </div>
 
-> `AhaKey-X1-hardware-source` and `AhaKey-X1-hardware-contributions` are controlled private repositories.  
-> If you do not have access, GitHub may show 404 or permission errors. Please submit the Hardware Source Access Program form first.
-
 ---
 
-## Community contributions and hardware contributions
+## Community contributions
 
 | Type | Default place | Notes |
 |---|---|---|
@@ -551,32 +499,8 @@ PCB layout, Gerber, BOM, production test materials, and other complete hardware 
 | BLE protocol docs / examples | [`protocol`](https://github.com/AhakeyAI/protocol) | Protocol and examples go to the public repo |
 | Third-party clients / scripts / workflows / tutorials | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | Community projects, tutorials, and workflows go here by default |
 | Cases, keycaps, stands, desk setup, and non-sensitive remixes | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | Showcase results, not production-grade hardware materials |
-| Official firmware bugs / firmware patches / flashing docs | [`AhaKey-X1-hardware-contributions`](https://github.com/AhakeyAI/AhaKey-X1-hardware-contributions) | Authorized users only |
-| Hardware proposals / schematic feedback / low-level debugging notes | [`AhaKey-X1-hardware-contributions`](https://github.com/AhakeyAI/AhaKey-X1-hardware-contributions) | Hardware / firmware only |
+| Hardware / firmware feedback, patches, or proposals | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source/apply) | Submit the form first; approved users enter the controlled collaboration flow |
 | PCB layout / Gerber / BOM / production test materials | WeCom support | Not provided through repositories by default |
-
-### Always create a new branch for hardware / firmware contributions
-
-If you have access to `AhaKey-X1-hardware-contributions`, always create a new branch for bug fixes, documentation, proposals, experiments, or hardware feedback.
-
-Do not commit directly to:
-
-```text
-main
-master
-```
-
-Recommended branch names:
-
-```text
-fix/<github-id>-short-description
-docs/<github-id>-short-description
-experiment/<github-id>-short-description
-proposal/<github-id>-short-description
-hardware/<github-id>-short-description
-```
-
-This keeps contributor identity and commit history clear, and makes review, discussion, and future credits easier.
 
 ---
 
@@ -648,7 +572,7 @@ Submit the Hardware Source Access Program form
 → Your GitHub account may be invited to the relevant private repository
 → Read the official baseline source
 → Learn, build, debug, and experiment locally
-→ Submit hardware / firmware feedback or patches through a new branch in the contribution repository
+→ Submit hardware / firmware feedback or patches through the controlled collaboration flow
 → AhaKey team reviews it
 ```
 
@@ -664,7 +588,7 @@ Entry: [`AhaKey Hardware Source Access Program`](https://ahakey.com/cn/hardware-
 | Discussion | Open-ended discussion and idea incubation | workflows, ideas, uncertain questions, collaboration topics |
 | Pull Request | Concrete changes | code changes, documentation changes, bug fixes, implemented features |
 | awesome-ahakey | Community showcase | independent projects, third-party clients, scripts, tutorials, workflows, remixes |
-| hardware-contributions | Controlled hardware / firmware contribution staging | firmware patches, experiments, hardware proposals, flashing docs |
+| Hardware Source Access Program | Controlled hardware / firmware collaboration entry | firmware patches, experiments, hardware proposals, low-level debugging |
 
 Simple rule:
 
@@ -714,7 +638,7 @@ Please try to keep contributions:
 - accompanied by screenshots / logs / demos when helpful
 - free of secrets, tokens, or personal files
 - discussed first if the feature is large
-- submitted through a new branch if it involves controlled hardware / firmware contribution
+- hardware / firmware related contributions should go through the Hardware Source Access Program
 
 ---
 
@@ -739,7 +663,7 @@ If you want to learn about AhaKey, download software, buy the device, join discu
 | Official client bugs, installation failures, connection issues | GitHub Issues |
 | Protocol development, third-party clients, workflow ideas | GitHub Discussions |
 | Sharing your own project, tutorial, script, or workflow | awesome-ahakey |
-| Submitting firmware patches, experiments, or hardware proposals | AhaKey-X1-hardware-contributions |
+| Submitting firmware patches, experiments, or hardware proposals | Hardware Source Access Program |
 | Reading official firmware baseline source | Hardware Source Access Program |
 | PCB layout, BOM, Gerber, production test materials | WeCom support |
 | Purchase, shipping, after-sales, device usage | Taobao / WeCom support |
