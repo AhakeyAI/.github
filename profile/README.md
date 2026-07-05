@@ -71,7 +71,11 @@ AhaKey 采用 **“开源客户端 + AhaKey Developer Kit + Awesome AhaKey 社�
 
 👉 [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)
 
-PCB layout、Gerber、BOM、生产测试资料、供应链资料、完整官方固件源码等生产级资料不默认通过公开仓库开放。确有深度合作、生产级调试或特殊研究需求时，请联系 AhaKey 官方进一步沟通。
+如果你希望进一步参与固件代码完善、硬件产品技术开发、底层调试、生产级资料评估或更深度的产品共创，可以提交：
+
+👉 [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source)
+
+PCB layout、Gerber、BOM、生产测试资料、供应链资料、完整官方固件源码等生产级资料不默认通过公开仓库开放。确有深度合作、生产级调试或特殊研究需求时，请通过表单或官方联系方式进一步沟通。
 
 > **AhaKey 尊重用户对自己设备的本地控制权。**
 > 我们不会故意通过远程认证、云端锁定或固件更新，破坏已公开协议和 SDK 下的合理本地开发、第三方客户端使用和自定义玩法探索。
@@ -93,14 +97,15 @@ PCB layout、Gerber、BOM、生产测试资料、供应链资料、完整官方�
 
 ### 进阶版
 
-| 你想做什么                     | 去哪里                                                              | 说明                                      |
-| ------------------------- | ---------------------------------------------------------------- | --------------------------------------- |
-| 发现官方客户端 bug               | [`desktop/issues`](https://github.com/AhakeyAI/desktop/issues)   | 提交明确问题、复现步骤、日志或截图                       |
-| 发现协议、SDK、examples 或构建文档问题 | [`protocol/issues`](https://github.com/AhakeyAI/protocol/issues) | 反馈 BLE 协议、SDK、构建脚本、自定义 HEX 相关问题         |
-| 有想法想先讨论                   | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions)    | 发起问题、想法、玩法、共创讨论                         |
-| 做了完整项目，想让更多人看到            | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)   | 提交项目链接、截图、视频、使用说明和作者信息                  |
-| 查看官方固件版本和升级说明             | [`firmware`](https://github.com/AhakeyAI/firmware)               | 官方固件 release notes、升级说明和兼容性说明           |
-| 需要生产级硬件资料或特殊深度合作          | 官方邮箱 / 企业微信客服                                                    | PCB、BOM、Gerber、生产测试资料、供应链资料等不通过公开仓库默认提供 |
+| 你想做什么                     | 去哪里                                                                                       | 说明                                                      |
+| ------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| 发现官方客户端 bug               | [`desktop/issues`](https://github.com/AhakeyAI/desktop/issues)                            | 提交明确问题、复现步骤、日志或截图                                       |
+| 发现协议、SDK、examples 或构建文档问题 | [`protocol/issues`](https://github.com/AhakeyAI/protocol/issues)                          | 反馈 BLE 协议、SDK、构建脚本、自定义 HEX 相关问题                         |
+| 有想法想先讨论                   | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions)                             | 发起问题、想法、玩法、共创讨论                                         |
+| 做了完整项目，想让更多人看到            | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)                            | 提交项目链接、截图、视频、使用说明和作者信息                                  |
+| 查看官方固件版本和升级说明             | [`firmware`](https://github.com/AhakeyAI/firmware)                                        | 官方固件 release notes、升级说明和兼容性说明                           |
+| 想参与固件 / 硬件深度共创            | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source)                 | 如果你希望一起完善固件代码、补足硬件产品技术开发不足、参与更深度调试或共创，可以先提交表单，我们评估后再联系你 |
+| 需要生产级硬件资料或特殊深度合作          | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source) / 官方邮箱 / 企业微信客服 | PCB、BOM、Gerber、生产测试资料、供应链资料等不通过公开仓库默认提供，需要单独沟通评估        |
 
 ---
 
@@ -147,14 +152,15 @@ PCB layout、Gerber、BOM、生产测试资料、供应链资料、完整官方�
 
 ## 社区贡献怎么分？
 
-| 类型                                         | 默认去哪里                                                          | 说明                        |
-| ------------------------------------------ | -------------------------------------------------------------- | ------------------------- |
-| 官方桌面客户端 bug / 功能改进                         | [`desktop`](https://github.com/AhakeyAI/desktop)               | 官方客户端代码贡献走公开 PR           |
-| BLE 协议文档 / SDK / examples / 构建脚本           | [`protocol`](https://github.com/AhakeyAI/protocol)             | Developer Kit 相关内容走公开仓库   |
-| 第三方客户端 / 脚本 / workflow / 教程                | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 社区项目、教程和 workflow 默认提交到这里 |
-| SDK demo / 自定义 HEX 玩法 / 按键、拨杆、灯光、OLED 二创展示 | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | 展示成果、教程和使用方式，不提交生产级硬件资料   |
-| 官方固件发布说明、升级说明、兼容性文档                        | [`firmware`](https://github.com/AhakeyAI/firmware)             | 仅用于官方固件版本和升级相关信息          |
-| PCB layout / Gerber / BOM / 生产测试资料 / 供应链资料 | 官方邮箱 / 企业微信客服                                                  | 不默认通过公开仓库提供，需要单独沟通评估      |
+| 类型                                         | 默认去哪里                                                                     | 说明                        |
+| ------------------------------------------ | ------------------------------------------------------------------------- | ------------------------- |
+| 官方桌面客户端 bug / 功能改进                         | [`desktop`](https://github.com/AhakeyAI/desktop)                          | 官方客户端代码贡献走公开 PR           |
+| BLE 协议文档 / SDK / examples / 构建脚本           | [`protocol`](https://github.com/AhakeyAI/protocol)                        | Developer Kit 相关内容走公开仓库   |
+| 第三方客户端 / 脚本 / workflow / 教程                | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)            | 社区项目、教程和 workflow 默认提交到这里 |
+| SDK demo / 自定义 HEX 玩法 / 按键、拨杆、灯光、OLED 二创展示 | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)            | 展示成果、教程和使用方式，不提交生产级硬件资料   |
+| 官方固件发布说明、升级说明、兼容性文档                        | [`firmware`](https://github.com/AhakeyAI/firmware)                        | 仅用于官方固件版本和升级相关信息          |
+| 固件代码完善、硬件技术共创、底层调试或深度合作                    | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source) | 先提交表单，AhaKey 团队评估后再联系     |
+| PCB layout / Gerber / BOM / 生产测试资料 / 供应链资料 | 官方邮箱 / 企业微信客服                                                             | 不默认通过公开仓库提供，需要单独沟通评估      |
 
 ---
 
@@ -296,17 +302,41 @@ PCB layout、Gerber、BOM、生产测试资料、供应链资料、完整官方�
 
 ---
 
+### 7）我想参与固件 / 硬件深度共创
+
+```text
+进入 Hardware Source Access Program
+→ 填写你的基本信息、GitHub 用户名和想参与的方向
+→ 说明你希望完善的固件代码、硬件技术问题或共创内容
+→ AhaKey 团队评估用途和匹配度
+→ 如果适合，我们会进一步联系你
+```
+
+适合：
+
+* 一起完善固件代码
+* 补足硬件产品技术开发不足的地方
+* 参与底层问题排查
+* 参与硬件 / 固件技术共创
+* 参与新硬件 / 新软件方向的技术讨论
+* 需要更深度资料或生产级调试合作
+
+入口：[`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source)
+
+---
+
 ## Issue / Discussion / PR / awesome-ahakey 分别用来做什么？
 
-| 类型             | 用途                   | 适合什么时候用                                  |
-| -------------- | -------------------- | ---------------------------------------- |
-| Issue          | 明确问题或明确需求            | bug、文档错误、可复现问题、具体功能请求                    |
-| Discussion     | 开放讨论和想法孵化            | 玩法讨论、共创想法、不确定的问题、高关注度话题                  |
-| Pull Request   | 提交具体改动               | 代码修改、文档修改、bug fix、功能实现                   |
-| protocol       | Developer Kit 相关开发入口 | BLE 协议、SDK、examples、自定义 HEX 构建说明         |
-| awesome-ahakey | 社区作品展示               | 独立项目、第三方客户端、脚本、教程、workflow、SDK demo、二创展示 |
-| firmware       | 官方固件说明               | 官方固件 release notes、升级说明、兼容性说明            |
-| 官方邮箱 / 企业微信客服  | 特殊问题或深度合作            | 生产级资料、商务合作、重要问题、受控资料泄露                   |
+| 类型                             | 用途                   | 适合什么时候用                                  |
+| ------------------------------ | -------------------- | ---------------------------------------- |
+| Issue                          | 明确问题或明确需求            | bug、文档错误、可复现问题、具体功能请求                    |
+| Discussion                     | 开放讨论和想法孵化            | 玩法讨论、共创想法、不确定的问题、高关注度话题                  |
+| Pull Request                   | 提交具体改动               | 代码修改、文档修改、bug fix、功能实现                   |
+| protocol                       | Developer Kit 相关开发入口 | BLE 协议、SDK、examples、自定义 HEX 构建说明         |
+| awesome-ahakey                 | 社区作品展示               | 独立项目、第三方客户端、脚本、教程、workflow、SDK demo、二创展示 |
+| firmware                       | 官方固件说明               | 官方固件 release notes、升级说明、兼容性说明            |
+| Hardware Source Access Program | 固件 / 硬件深度共创入口        | 固件代码完善、硬件技术共创、底层调试、生产级资料评估               |
+| 官方邮箱 / 企业微信客服                  | 特殊问题或深度合作            | 商务合作、重要问题、受控资料泄露、售后支持                    |
 
 简单理解：
 
@@ -316,7 +346,8 @@ PCB layout、Gerber、BOM、生产测试资料、供应链资料、完整官方�
 客户端 / 文档 / SDK 已改好 → 提 Pull Request
 做了独立项目、workflow 或 SDK demo → 提到 awesome-ahakey
 需要官方固件版本和升级说明 → 看 firmware
-涉及生产级资料或特殊深度合作 → 联系官方
+想参与固件 / 硬件深度共创 → 提交 Hardware Source Access Program
+生产级资料或特殊合作 → 联系官方
 ```
 
 ---
@@ -354,6 +385,7 @@ PCB layout、Gerber、BOM、生产测试资料、供应链资料、完整官方�
 * 按键、拨杆、灯光、OLED 二创
 * 使用视频、截图、教程
 * 非敏感硬件二创展示
+* 固件 / 硬件技术共创建议
 
 建议尽量保持：
 
@@ -364,6 +396,7 @@ PCB layout、Gerber、BOM、生产测试资料、供应链资料、完整官方�
 * 不提交无关二进制文件、安装包或编译产物
 * 大功能先 Discussion，再 PR
 * 不提交官方完整固件源码、PCB、Gerber、BOM、生产测试资料或供应链资料
+* 涉及生产级资料、底层调试或特殊深度合作时，先提交 Hardware Source Access Program 表单
 
 ---
 
@@ -371,30 +404,31 @@ PCB layout、Gerber、BOM、生产测试资料、供应链资料、完整官方�
 
 需要了解 AhaKey、下载软件、购买设备、加入讨论或联系官方，可以从下面这些入口开始。
 
-| 入口          | 链接                                                                                                         | 适合做什么                            |
-| ----------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| 官网          | [ahakey.com](https://ahakey.com)                                                                           | 产品介绍、下载入口、社区说明                   |
-| GitHub      | [AhakeyAI](https://github.com/AhakeyAI)                                                                    | 开源代码、Developer Kit、Issue、PR、社区项目 |
-| Discord     | [AhaKey Discord](https://discord.gg/Nn48cJXa)                                                              | 海外用户交流、开发者讨论、快速反馈                |
-| X / Twitter | [@zhngxnyng199073](https://x.com/zhngxnyng199073)                                                          | 海外动态、产品更新、开发者内容                  |
-| 哔哩哔哩        | [AhaKey Bilibili](https://space.bilibili.com/2001376117?spm_id_from=333.1007.0.0)                          | 视频教程、产品演示、开发过程记录                 |
-| 淘宝店         | [AhaKey 淘宝店](https://shop277996828.taobao.com/?spm=pc_detail.30350276.shop_block.dshopinfo.5ad17dd6tWyean) | 购买设备、订单相关问题                      |
-| 官方邮箱        | [zhangxinyang@ahakey.cn](mailto:zhangxinyang@ahakey.cn)                                                    | 合作、反馈、社区问题、重要问题联系                |
+| 入口                             | 链接                                                                                                         | 适合做什么                            |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| 官网                             | [ahakey.com](https://ahakey.com)                                                                           | 产品介绍、下载入口、社区说明                   |
+| GitHub                         | [AhakeyAI](https://github.com/AhakeyAI)                                                                    | 开源代码、Developer Kit、Issue、PR、社区项目 |
+| Discord                        | [AhaKey Discord](https://discord.gg/Nn48cJXa)                                                              | 海外用户交流、开发者讨论、快速反馈                |
+| X / Twitter                    | [@AhaKeyAI](https://x.com/AhaKeyAI)                                                                        | 海外动态、产品更新、开发者内容                  |
+| 哔哩哔哩                           | [AhaKey Bilibili](https://space.bilibili.com/2001376117?spm_id_from=333.1007.0.0)                          | 视频教程、产品演示、开发过程记录                 |
+| 淘宝店                            | [AhaKey 淘宝店](https://shop277996828.taobao.com/?spm=pc_detail.30350276.shop_block.dshopinfo.5ad17dd6tWyean) | 购买设备、订单相关问题                      |
+| Hardware Source Access Program | [ahakey.com/cn/hardware-source](https://ahakey.com/cn/hardware-source)                                     | 固件 / 硬件深度共创、技术开发合作、生产级资料评估       |
+| 官方邮箱                           | [zhangxinyang@ahakey.cn](mailto:zhangxinyang@ahakey.cn)                                                    | 合作、反馈、社区问题、重要问题联系                |
 
 ### 问题该去哪里？
 
-| 你遇到的问题                           | 推荐入口                                   |
-| -------------------------------- | -------------------------------------- |
-| 官方客户端 bug、安装失败、连接异常              | `desktop` GitHub Issues                |
-| BLE 协议、SDK、examples、自定义 HEX 构建问题 | `protocol` GitHub Issues / Discussions |
-| 想讨论玩法、workflow、二创方向              | GitHub Discussions                     |
-| 想展示自己的二创项目、教程、脚本、SDK demo        | `awesome-ahakey`                       |
-| 查看官方固件版本、升级说明、兼容性说明              | `firmware`                             |
-| 购买、发货、售后、设备使用问题                  | 淘宝店 / 企业微信客服                           |
-| 中文用户日常交流                         | 微信群 / QQ 群 / 小红书群                      |
-| 海外用户交流                           | Discord / X                            |
-| 生产级硬件资料、商务合作、特殊深度合作              | 官方邮箱 / 企业微信客服                          |
-| 安全问题、密钥泄露、受控资料泄露                 | 请勿公开发 Issue，联系官方邮箱                     |
+| 你遇到的问题                           | 推荐入口                                                                                    |
+| -------------------------------- | --------------------------------------------------------------------------------------- |
+| 官方客户端 bug、安装失败、连接异常              | `desktop` GitHub Issues                                                                 |
+| BLE 协议、SDK、examples、自定义 HEX 构建问题 | `protocol` GitHub Issues / Discussions                                                  |
+| 想讨论玩法、workflow、二创方向              | GitHub Discussions                                                                      |
+| 想展示自己的二创项目、教程、脚本、SDK demo        | `awesome-ahakey`                                                                        |
+| 查看官方固件版本、升级说明、兼容性说明              | `firmware`                                                                              |
+| 购买、发货、售后、设备使用问题                  | 淘宝店 / 企业微信客服                                                                            |
+| 中文用户日常交流                         | 微信群 / QQ 群 / 小红书群                                                                       |
+| 海外用户交流                           | Discord / X                                                                             |
+| 固件 / 硬件深度共创、技术开发合作、生产级资料评估       | [Hardware Source Access Program](https://ahakey.com/cn/hardware-source) / 官方邮箱 / 企业微信客服 |
+| 安全问题、密钥泄露、受控资料泄露                 | 请勿公开发 Issue，联系官方邮箱                                                                      |
 
 <details>
 <summary><strong>扫码加入中文社群 / 联系客服</strong></summary>
@@ -498,6 +532,10 @@ Independent community projects, tutorials, workflows, SDK demos, and custom HEX 
 
 👉 [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)
 
+If you want to help improve firmware code, fill technical gaps in hardware product development, join deeper debugging, or explore deeper product collaboration, you can submit:
+
+👉 [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source)
+
 PCB layout, Gerber, BOM, production test materials, supply-chain materials, and the full official firmware source are not provided through public repositories by default. For deep collaboration, production-level debugging, or special research needs, please contact AhaKey directly.
 
 > **AhaKey respects users' local control over their own devices.**
@@ -520,14 +558,15 @@ PCB layout, Gerber, BOM, production test materials, supply-chain materials, and 
 
 ### Advanced
 
-| What do you want to do?                                           | Where to go                                                      | Notes                                                                                                                           |
-| ----------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Report a desktop client bug                                       | [`desktop/issues`](https://github.com/AhakeyAI/desktop/issues)   | Submit clear reproduction steps, logs, or screenshots                                                                           |
-| Report protocol, SDK, example, or build documentation issues      | [`protocol/issues`](https://github.com/AhakeyAI/protocol/issues) | BLE protocol, SDK, build scripts, and custom HEX issues                                                                         |
-| Start a discussion                                                | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions)    | Share ideas, questions, use cases, or collaboration topics                                                                      |
-| Share a complete community project                                | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)   | Submit links, screenshots, videos, usage notes, and author information                                                          |
-| Read official firmware release and update notes                   | [`firmware`](https://github.com/AhakeyAI/firmware)               | Official firmware release notes, update instructions, and compatibility notes                                                   |
-| Need production-grade hardware materials or special collaboration | Official email / WeCom support                                   | PCB, BOM, Gerber, production test materials, and supply-chain materials are not provided through public repositories by default |
+| What do you want to do?                                           | Where to go                                                                                                | Notes                                                                                                                                                                                              |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Report a desktop client bug                                       | [`desktop/issues`](https://github.com/AhakeyAI/desktop/issues)                                             | Submit clear reproduction steps, logs, or screenshots                                                                                                                                              |
+| Report protocol, SDK, example, or build documentation issues      | [`protocol/issues`](https://github.com/AhakeyAI/protocol/issues)                                           | BLE protocol, SDK, build scripts, and custom HEX issues                                                                                                                                            |
+| Start a discussion                                                | [`Discussions`](https://github.com/orgs/AhakeyAI/discussions)                                              | Share ideas, questions, use cases, or collaboration topics                                                                                                                                         |
+| Share a complete community project                                | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)                                             | Submit links, screenshots, videos, usage notes, and author information                                                                                                                             |
+| Read official firmware release and update notes                   | [`firmware`](https://github.com/AhakeyAI/firmware)                                                         | Official firmware release notes, update instructions, and compatibility notes                                                                                                                      |
+| Join deeper firmware / hardware collaboration                     | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source)                                  | If you want to help improve firmware code, fill technical gaps in hardware product development, or join deeper debugging and collaboration, submit the form first and we will follow up if it fits |
+| Need production-grade hardware materials or special collaboration | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source) / official email / WeCom support | PCB, BOM, Gerber, production test materials, and supply-chain materials are not provided through public repositories by default                                                                    |
 
 ---
 
@@ -574,14 +613,15 @@ PCB layout, Gerber, BOM, production test materials, supply-chain materials, and 
 
 ## Community contributions
 
-| Type                                                                           | Default place                                                  | Notes                                                                     |
-| ------------------------------------------------------------------------------ | -------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Official desktop client bugs / improvements                                    | [`desktop`](https://github.com/AhakeyAI/desktop)               | Client code contributions go through public PRs                           |
-| BLE protocol docs / SDK / examples / build scripts                             | [`protocol`](https://github.com/AhakeyAI/protocol)             | Developer Kit changes go to the public repo                               |
-| Third-party clients / scripts / workflows / tutorials                          | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | Community projects, tutorials, and workflows go here by default           |
-| SDK demos / custom HEX projects / button, toggle, light, OLED remixes          | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey) | Showcase results and usage notes, not production-grade hardware materials |
-| Official firmware release notes, update docs, compatibility docs               | [`firmware`](https://github.com/AhakeyAI/firmware)             | Official firmware version and update information only                     |
-| PCB layout / Gerber / BOM / production test materials / supply-chain materials | Official email / WeCom support                                 | Not provided through public repositories by default                       |
+| Type                                                                                                   | Default place                                                             | Notes                                                                     |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Official desktop client bugs / improvements                                                            | [`desktop`](https://github.com/AhakeyAI/desktop)                          | Client code contributions go through public PRs                           |
+| BLE protocol docs / SDK / examples / build scripts                                                     | [`protocol`](https://github.com/AhakeyAI/protocol)                        | Developer Kit changes go to the public repo                               |
+| Third-party clients / scripts / workflows / tutorials                                                  | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)            | Community projects, tutorials, and workflows go here by default           |
+| SDK demos / custom HEX projects / button, toggle, light, OLED remixes                                  | [`awesome-ahakey`](https://github.com/AhakeyAI/awesome-ahakey)            | Showcase results and usage notes, not production-grade hardware materials |
+| Official firmware release notes, update docs, compatibility docs                                       | [`firmware`](https://github.com/AhakeyAI/firmware)                        | Official firmware version and update information only                     |
+| Firmware code improvement, hardware technical collaboration, deeper debugging or special collaboration | [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source) | Submit the form first; the AhaKey team will follow up if it fits          |
+| PCB layout / Gerber / BOM / production test materials / supply-chain materials                         | Official email / WeCom support                                            | Not provided through public repositories by default                       |
 
 ---
 
@@ -723,17 +763,41 @@ Entry: [`firmware`](https://github.com/AhakeyAI/firmware)
 
 ---
 
+### 7) I want to join deeper firmware / hardware collaboration
+
+```text
+Go to Hardware Source Access Program
+→ Fill in your basic information, GitHub username, and collaboration direction
+→ Explain the firmware code, hardware technical gap, or product development issue you want to help with
+→ AhaKey team reviews the purpose and fit
+→ If it fits, we will contact you for the next step
+```
+
+Best for:
+
+* helping improve firmware code
+* filling technical gaps in hardware product development
+* joining low-level issue debugging
+* joining firmware / hardware technical collaboration
+* joining early technical discussions for new hardware or software directions
+* deeper materials or production-level debugging collaboration
+
+Entry: [`Hardware Source Access Program`](https://ahakey.com/cn/hardware-source)
+
+---
+
 ## What are Issue / Discussion / PR / awesome-ahakey for?
 
-| Type                           | Purpose                                   | Best used for                                                                                   |
-| ------------------------------ | ----------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Issue                          | Clear problems or concrete requests       | bugs, documentation errors, reproducible problems, specific feature requests                    |
-| Discussion                     | Open-ended discussion and idea incubation | workflows, ideas, uncertain questions, collaboration topics                                     |
-| Pull Request                   | Concrete changes                          | code changes, documentation changes, bug fixes, implemented features                            |
-| protocol                       | Developer Kit development entry           | BLE protocol, SDK, examples, and custom HEX build docs                                          |
-| awesome-ahakey                 | Community showcase                        | independent projects, third-party clients, scripts, tutorials, workflows, SDK demos, remixes    |
-| firmware                       | Official firmware docs                    | official firmware release notes, update instructions, and compatibility notes                   |
-| Official email / WeCom support | Special issues or deeper collaboration    | production-grade materials, business collaboration, important issues, controlled material leaks |
+| Type                           | Purpose                                        | Best used for                                                                                                          |
+| ------------------------------ | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Issue                          | Clear problems or concrete requests            | bugs, documentation errors, reproducible problems, specific feature requests                                           |
+| Discussion                     | Open-ended discussion and idea incubation      | workflows, ideas, uncertain questions, collaboration topics                                                            |
+| Pull Request                   | Concrete changes                               | code changes, documentation changes, bug fixes, implemented features                                                   |
+| protocol                       | Developer Kit development entry                | BLE protocol, SDK, examples, and custom HEX build docs                                                                 |
+| awesome-ahakey                 | Community showcase                             | independent projects, third-party clients, scripts, tutorials, workflows, SDK demos, remixes                           |
+| firmware                       | Official firmware docs                         | official firmware release notes, update instructions, and compatibility notes                                          |
+| Hardware Source Access Program | Deeper firmware / hardware collaboration entry | firmware code improvement, hardware technical collaboration, low-level debugging, production-grade material evaluation |
+| Official email / WeCom support | Special issues or deeper collaboration         | business collaboration, important issues, controlled material leaks, after-sales support                               |
 
 Simple rule:
 
@@ -743,6 +807,7 @@ Clear problem → Issue
 Client / docs / SDK already changed → Pull Request
 Built an independent project, workflow, or SDK demo → awesome-ahakey
 Need official firmware versions or update notes → firmware
+Want deeper firmware / hardware collaboration → submit Hardware Source Access Program
 Production-grade materials or special collaboration → contact AhaKey
 ```
 
@@ -781,6 +846,7 @@ You can contribute:
 * button, toggle, light, and OLED remixes
 * videos, screenshots, and tutorials
 * non-sensitive hardware remix showcases
+* firmware / hardware technical collaboration suggestions
 
 Please try to keep contributions:
 
@@ -791,6 +857,7 @@ Please try to keep contributions:
 * free of unrelated binaries, installers, or build artifacts
 * discussed first if the feature is large
 * free of the full official firmware source, PCB, Gerber, BOM, production test materials, or supply-chain materials
+* submitted through Hardware Source Access Program first when production-grade materials, low-level debugging, or special collaboration is involved
 
 ---
 
@@ -798,30 +865,31 @@ Please try to keep contributions:
 
 To learn about AhaKey, download software, buy the device, join discussions, or contact the team, start here.
 
-| Entry        | Link                                                                                                                | Best for                                                       |
-| ------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| Website      | [ahakey.com](https://ahakey.com)                                                                                    | Product information, downloads, and community information      |
-| GitHub       | [AhakeyAI](https://github.com/AhakeyAI)                                                                             | Source code, Developer Kit, Issues, PRs, community projects    |
-| Discord      | [AhaKey Discord](https://discord.gg/Nn48cJXa)                                                                       | International community, developer discussions, quick feedback |
-| X / Twitter  | [@zhngxnyng199073](https://x.com/zhngxnyng199073)                                                                   | Product updates, development notes, international posts        |
-| Bilibili     | [AhaKey Bilibili](https://space.bilibili.com/2001376117?spm_id_from=333.1007.0.0)                                   | Videos, tutorials, product demos, development logs             |
-| Taobao Store | [AhaKey Taobao Store](https://shop277996828.taobao.com/?spm=pc_detail.30350276.shop_block.dshopinfo.5ad17dd6tWyean) | Purchase, orders, device-related questions                     |
-| Email        | [zhangxinyang@ahakey.cn](mailto:zhangxinyang@ahakey.cn)                                                             | Collaboration, feedback, community issues, important contact   |
+| Entry                          | Link                                                                                                                | Best for                                                                                                          |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Website                        | [ahakey.com](https://ahakey.com)                                                                                    | Product information, downloads, and community information                                                         |
+| GitHub                         | [AhakeyAI](https://github.com/AhakeyAI)                                                                             | Source code, Developer Kit, Issues, PRs, community projects                                                       |
+| Discord                        | [AhaKey Discord](https://discord.gg/Nn48cJXa)                                                                       | International community, developer discussions, quick feedback                                                    |
+| X / Twitter                    | [@AhaKeyAI](https://x.com/AhaKeyAI)                                                                                 | Product updates, development notes, international posts                                                           |
+| Bilibili                       | [AhaKey Bilibili](https://space.bilibili.com/2001376117?spm_id_from=333.1007.0.0)                                   | Videos, tutorials, product demos, development logs                                                                |
+| Taobao Store                   | [AhaKey Taobao Store](https://shop277996828.taobao.com/?spm=pc_detail.30350276.shop_block.dshopinfo.5ad17dd6tWyean) | Purchase, orders, device-related questions                                                                        |
+| Hardware Source Access Program | [ahakey.com/cn/hardware-source](https://ahakey.com/cn/hardware-source)                                              | Deeper firmware / hardware collaboration, technical development partnership, production-grade material evaluation |
+| Email                          | [zhangxinyang@ahakey.cn](mailto:zhangxinyang@ahakey.cn)                                                             | Collaboration, feedback, community issues, important contact                                                      |
 
 ### Where should I ask?
 
-| What you need                                                                      | Recommended place                                      |
-| ---------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Official client bugs, installation failures, connection issues                     | `desktop` GitHub Issues                                |
-| BLE protocol, SDK, examples, custom HEX build issues                               | `protocol` GitHub Issues / Discussions                 |
-| Workflow, remix, or project ideas                                                  | GitHub Discussions                                     |
-| Sharing your own project, tutorial, script, or SDK demo                            | `awesome-ahakey`                                       |
-| Official firmware versions, update notes, compatibility docs                       | `firmware`                                             |
-| Purchase, shipping, after-sales, device usage                                      | Taobao / WeCom support                                 |
-| Chinese community discussion                                                       | WeChat / QQ / Xiaohongshu groups                       |
-| International community discussion                                                 | Discord / X                                            |
-| Production-grade hardware materials, business collaboration, special collaboration | Official email / WeCom support                         |
-| Security issues, leaked secrets, controlled material leaks                         | Do not open a public Issue; contact the official email |
+| What you need                                                                                                     | Recommended place                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Official client bugs, installation failures, connection issues                                                    | `desktop` GitHub Issues                                                                                  |
+| BLE protocol, SDK, examples, custom HEX build issues                                                              | `protocol` GitHub Issues / Discussions                                                                   |
+| Workflow, remix, or project ideas                                                                                 | GitHub Discussions                                                                                       |
+| Sharing your own project, tutorial, script, or SDK demo                                                           | `awesome-ahakey`                                                                                         |
+| Official firmware versions, update notes, compatibility docs                                                      | `firmware`                                                                                               |
+| Purchase, shipping, after-sales, device usage                                                                     | Taobao / WeCom support                                                                                   |
+| Chinese community discussion                                                                                      | WeChat / QQ / Xiaohongshu groups                                                                         |
+| International community discussion                                                                                | Discord / X                                                                                              |
+| Deeper firmware / hardware collaboration, technical development partnership, production-grade material evaluation | [Hardware Source Access Program](https://ahakey.com/cn/hardware-source) / official email / WeCom support |
+| Security issues, leaked secrets, controlled material leaks                                                        | Do not open a public Issue; contact the official email                                                   |
 
 <details>
 <summary><strong>Chinese community QR codes / support contact</strong></summary>
